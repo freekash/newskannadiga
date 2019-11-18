@@ -1,0 +1,7478 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Newsmax\n"
+"POT-Creation-Date: 2018-02-15 11:23+0700\n"
+"PO-Revision-Date: 2017-07-16 09:08+0700\n"
+"Last-Translator: \n"
+"Language-Team: Theme-Ruby <themeruby@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _x;__;_e;_nx:1,2;esc_html__;esc_html_e;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: backend/admin_activation.php:334 backend/admin_plugins.php:64
+msgid "Install Required Plugins"
+msgstr ""
+
+#: backend/admin_activation.php:335 backend/admin_plugins.php:65
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: backend/admin_activation.php:337 backend/admin_plugins.php:66
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: backend/admin_activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: backend/admin_activation.php:340 backend/admin_plugins.php:67
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: backend/admin_activation.php:392 backend/admin_plugins.php:78
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: backend/admin_activation.php:393 backend/admin_activation.php:912
+#: backend/admin_activation.php:2626 backend/admin_activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: backend/admin_activation.php:394 backend/admin_activation.php:3252
+#: backend/admin_plugins.php:79
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: backend/admin_activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: backend/admin_activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: backend/admin_activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: backend/admin_activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: backend/admin_activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: backend/admin_activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: backend/admin_activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: backend/admin_activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: backend/admin_activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: backend/admin_activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: backend/admin_activation.php:1019 backend/admin_activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: backend/admin_activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#. translators: %s: version number
+#: backend/admin_activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: backend/admin_activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: backend/admin_activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: backend/admin_activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: backend/admin_activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: backend/admin_activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: backend/admin_activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: backend/admin_activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: backend/admin_activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: backend/admin_activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: backend/admin_activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: backend/admin_activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: backend/admin_activation.php:2435
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: backend/admin_activation.php:2481
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: backend/admin_activation.php:2575
+msgid "unknown"
+msgstr ""
+
+#: backend/admin_activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: backend/admin_activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: backend/admin_activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: backend/admin_activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: backend/admin_activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: backend/admin_activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: backend/admin_activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: backend/admin_activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: backend/admin_activation.php:2647
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: backend/admin_activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: backend/admin_activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: backend/admin_activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: backend/admin_activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: backend/admin_activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: backend/admin_activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: backend/admin_activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: backend/admin_activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: backend/admin_activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: backend/admin_activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: backend/admin_activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: backend/admin_activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: backend/admin_activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: backend/admin_activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: backend/admin_activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: backend/admin_activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: backend/admin_activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: backend/admin_activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: backend/admin_activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: backend/admin_activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: backend/admin_activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: backend/admin_activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: backend/admin_activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: backend/admin_activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: backend/admin_activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: backend/admin_plugins.php:80
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: comments.php:12 comments.php:30
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:13 comments.php:31
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:14 comments.php:32
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: composer/composer_config.php:38
+msgid "ruby composer"
+msgstr ""
+
+#: composer/composer_config.php:40
+msgid "select your section"
+msgstr ""
+
+#: composer/composer_config.php:44
+msgid "Click on <strong>\"SECTION\"</strong> images to create a new section."
+msgstr ""
+
+#: composer/composer_config.php:101
+msgid "loading..."
+msgstr ""
+
+#: composer/composer_config.php:107
+msgid "Title"
+msgstr ""
+
+#: composer/composer_config.php:108
+msgid "Title Url"
+msgstr ""
+
+#: composer/composer_config.php:109
+msgid "Category Filter"
+msgstr ""
+
+#: composer/composer_config.php:110
+msgid "Multiple Categories Filter"
+msgstr ""
+
+#: composer/composer_config.php:111
+msgid "Tags slug filter"
+msgstr ""
+
+#: composer/composer_config.php:112
+msgid "Post Format Filter"
+msgstr ""
+
+#: composer/composer_config.php:113
+msgid "Authors Filter"
+msgstr ""
+
+#: composer/composer_config.php:114 metaboxes/taxonomy_config.php:152
+msgid "Number Of Posts"
+msgstr ""
+
+#: composer/composer_config.php:115
+msgid "Number Of Slider"
+msgstr ""
+
+#: composer/composer_config.php:116 metaboxes/panels/composer.php:79
+msgid "Post Offset"
+msgstr ""
+
+#: composer/composer_config.php:117
+msgid "Sort Order"
+msgstr ""
+
+#: composer/composer_config.php:118
+msgid "Post Excerpt"
+msgstr ""
+
+#: composer/composer_config.php:119 theme_options/panels/styling.php:249
+msgid "Read More Button"
+msgstr ""
+
+#: composer/composer_config.php:120
+msgid "1st Classic Post"
+msgstr ""
+
+#: composer/composer_config.php:121
+msgid "Classic Summary Type"
+msgstr ""
+
+#: composer/composer_config.php:122
+msgid "Big Column Position"
+msgstr ""
+
+#: composer/composer_config.php:123
+msgid "Classic Post Excerpt"
+msgstr ""
+
+#: composer/composer_config.php:124 metaboxes/panels/video.php:74
+msgid "Autoplay Video"
+msgstr ""
+
+#: composer/composer_config.php:127
+msgid "optional - input a title for this block."
+msgstr ""
+
+#: composer/composer_config.php:128
+msgid "optional - input a title URL for this block."
+msgstr ""
+
+#: composer/composer_config.php:129
+msgid "optional - show sub title of block."
+msgstr ""
+
+#: composer/composer_config.php:130
+msgid "filter posts by category ID."
+msgstr ""
+
+#: composer/composer_config.php:131
+msgid ""
+"filter posts by category IDs. This option will override on \"category filter"
+"\" option."
+msgstr ""
+
+#: composer/composer_config.php:132
+msgid ""
+"filter posts by tags, Each tags separated by commas (for example: tag1,tag2,"
+"tag3)."
+msgstr ""
+
+#: composer/composer_config.php:133
+msgid "filter posts by authors."
+msgstr ""
+
+#: composer/composer_config.php:134
+msgid "select number of posts you want to show at once."
+msgstr ""
+
+#: composer/composer_config.php:135
+msgid "select number of slides you want to show at once."
+msgstr ""
+
+#: composer/composer_config.php:136
+msgid ""
+"select number of posts to displace or pass over. Leave blank or set 0 if you "
+"want to show at the beginning."
+msgstr ""
+
+#: composer/composer_config.php:137
+msgid "select a sort order type for this block."
+msgstr ""
+
+#: composer/composer_config.php:138
+msgid ""
+"select a value for the post excerpt length (for grid and list layout), leave "
+"blank or set 0 if you want to disable it."
+msgstr ""
+
+#: composer/composer_config.php:139
+msgid ""
+"select a value for the post excerpt length (Classic layout), this option "
+"only applies when you enable Use Post Excerpt option, leave blank or set 0 "
+"if you want to disable it."
+msgstr ""
+
+#: composer/composer_config.php:140
+msgid "show or hide the \"Read More\" button for this block."
+msgstr ""
+
+#: composer/composer_config.php:141
+msgid "show the classic layout at top of the blog post listing."
+msgstr ""
+
+#: composer/composer_config.php:142
+msgid "select a summary type for classic layouts."
+msgstr ""
+
+#: composer/composer_config.php:143
+msgid "select position for the big column."
+msgstr ""
+
+#: composer/composer_config.php:144
+msgid "filter posts by post format types."
+msgstr ""
+
+#: composer/composer_config.php:145
+msgid "autoplay the first video when scrolling to this block."
+msgstr ""
+
+#: composer/composer_config.php:147
+msgid "Header Color"
+msgstr ""
+
+#: composer/composer_config.php:148
+msgid "select a color (hex color) for this block title, for example: #ffffff."
+msgstr ""
+
+#: composer/composer_config.php:150
+msgid "Text Color"
+msgstr ""
+
+#: composer/composer_config.php:151
+msgid ""
+"Select text style for this block, this option will apply to header border, "
+"ajax filter text and post contents (does not apply to overlay contents)."
+msgstr ""
+
+#: composer/composer_config.php:154 theme_options/panels/blog_archive.php:85
+#: theme_options/panels/blog_styling.php:48
+msgid "Share Icons"
+msgstr ""
+
+#: composer/composer_config.php:155
+msgid "enable or disable share on social icons for this block."
+msgstr ""
+
+#: composer/composer_config.php:158 theme_options/panels/blog_archive.php:78
+#: theme_options/panels/blog_styling.php:41
+msgid "Meta Tags Info"
+msgstr ""
+
+#: composer/composer_config.php:159
+msgid "enable or disable entry meta tags info for this block."
+msgstr ""
+
+#: composer/composer_config.php:162 theme_options/panels/blog_archive.php:71
+#: theme_options/panels/single_post.php:36
+msgid "Category Info"
+msgstr ""
+
+#: composer/composer_config.php:163
+msgid "enable or disable the category info for this block"
+msgstr ""
+
+#: composer/composer_config.php:167
+msgid "Column Heading"
+msgstr ""
+
+#: composer/composer_config.php:168
+msgid "input a heading for this column."
+msgstr ""
+
+#: composer/composer_config.php:169
+msgid "Destination URL"
+msgstr ""
+
+#: composer/composer_config.php:170
+msgid "input a destination URL."
+msgstr ""
+
+#: composer/composer_config.php:171
+msgid "Number of Columns"
+msgstr ""
+
+#: composer/composer_config.php:172
+msgid "select a number of columns per row."
+msgstr ""
+
+#: composer/composer_config.php:174
+msgid "Block Style"
+msgstr ""
+
+#: composer/composer_config.php:175
+msgid "select a style for this block."
+msgstr ""
+
+#: composer/composer_config.php:179
+msgid "Raw HTML"
+msgstr ""
+
+#: composer/composer_config.php:180
+msgid "input raw HTML content for this section."
+msgstr ""
+
+#: composer/composer_config.php:184
+msgid "Block Wrapper Mode"
+msgstr ""
+
+#: composer/composer_config.php:185 composer/composer_setup.php:251
+#: composer/composer_setup.php:595
+msgid "Custom HTML"
+msgstr ""
+
+#: composer/composer_config.php:186
+msgid "ShortCodes"
+msgstr ""
+
+#: composer/composer_config.php:187
+msgid "display contents of this block in full-width or wrapper mode."
+msgstr ""
+
+#: composer/composer_config.php:188
+msgid "input your text, HTML codes or video embed codes..."
+msgstr ""
+
+#: composer/composer_config.php:189
+msgid "input a subscribe form shortcode."
+msgstr ""
+
+#: composer/composer_config.php:192
+msgid "Ad title"
+msgstr ""
+
+#: composer/composer_config.php:193 theme_options/panels/advertising.php:191
+#: theme_options/panels/advertising.php:251
+msgid "Ad URL"
+msgstr ""
+
+#: composer/composer_config.php:194
+msgid "Ad Image URL"
+msgstr ""
+
+#: composer/composer_config.php:195
+msgid "Adsense Script"
+msgstr ""
+
+#: composer/composer_config.php:196
+msgid "input your advertising title."
+msgstr ""
+
+#: composer/composer_config.php:197 theme_options/panels/advertising.php:65
+#: theme_options/panels/advertising.php:113
+#: theme_options/panels/advertising.php:192
+#: theme_options/panels/advertising.php:252
+msgid "input your destination URL."
+msgstr ""
+
+#: composer/composer_config.php:198
+msgid ""
+" input your attachment image URL. This option will override on the scripts. "
+"Leave blank if you want to use scripts."
+msgstr ""
+
+#: composer/composer_config.php:199
+msgid "input your script codes or raw HTML."
+msgstr ""
+
+#: composer/composer_config.php:202
+msgid "Blog Style"
+msgstr ""
+
+#: composer/composer_config.php:203
+msgid "select a color style for this block"
+msgstr ""
+
+#: composer/composer_config.php:207
+msgid "Thumbnail Position"
+msgstr ""
+
+#: composer/composer_config.php:208
+msgid "select position for post thumbnails."
+msgstr ""
+
+#: composer/composer_config.php:211
+msgid "Image URL"
+msgstr ""
+
+#: composer/composer_config.php:212
+msgid "Short Description"
+msgstr ""
+
+#: composer/composer_config.php:213
+msgid "input a background image URL"
+msgstr ""
+
+#: composer/composer_config.php:214
+msgid "input a short description."
+msgstr ""
+
+#: composer/composer_config.php:217
+msgid "Ajax Dropdown Filter Type"
+msgstr ""
+
+#: composer/composer_config.php:218
+msgid ""
+"select a type for ajax dropdown filters for displaying at the right of this "
+"block header."
+msgstr ""
+
+#: composer/composer_config.php:222
+msgid "Ajax Dropdown Filter IDs"
+msgstr ""
+
+#: composer/composer_config.php:223
+msgid ""
+"input IDs of the filter type (category IDs, author IDs, OR tag names) you "
+"want to show, separated by commas, Leave blank if you want to show all."
+msgstr ""
+
+#: composer/composer_config.php:226
+msgid "First Item Title"
+msgstr ""
+
+#: composer/composer_config.php:227
+msgid "input a title for the first item (All) of this dropdown filter list."
+msgstr ""
+
+#: composer/composer_config.php:230
+msgid "Ajax Pagination"
+msgstr ""
+
+#: composer/composer_config.php:231
+msgid "select a pagination type for this block."
+msgstr ""
+
+#: composer/composer_config.php:235
+msgid "Grid Style"
+msgstr ""
+
+#: composer/composer_config.php:236
+msgid "select a grid style for this block."
+msgstr ""
+
+#: composer/composer_config.php:240
+msgid "Background Color"
+msgstr ""
+
+#: composer/composer_config.php:241
+msgid ""
+"select a wrapper background color (hex) for this block, for example: #282828."
+msgstr ""
+
+#: composer/composer_config.php:243
+msgid "Background Image"
+msgstr ""
+
+#: composer/composer_config.php:244
+msgid ""
+"input an attachment image URL as a background for this block. This option "
+"will override on background color settings."
+msgstr ""
+
+#: composer/composer_config.php:247
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: composer/composer_config.php:251
+msgid "Select Sidebar Options"
+msgstr ""
+
+#: composer/composer_config.php:254 metaboxes/panels/composer.php:95
+#: metaboxes/panels/sidebar.php:18
+msgid "Sidebar Name"
+msgstr ""
+
+#: composer/composer_config.php:283 metaboxes/panels/composer.php:103
+#: theme_options/panels/sidebar.php:21 theme_options/panels/single_page.php:56
+msgid "Sidebar Position"
+msgstr ""
+
+#: composer/composer_config.php:285 includes/theme_config.php:277
+#: metaboxes/taxonomy_config.php:203
+msgid "Right"
+msgstr ""
+
+#: composer/composer_config.php:286 includes/theme_config.php:272
+#: metaboxes/taxonomy_config.php:204
+msgid "Left"
+msgstr ""
+
+#: composer/composer_config.php:291
+msgid "Sidebar Sticky"
+msgstr ""
+
+#: composer/composer_config.php:293 includes/theme_config.php:235
+#: metaboxes/panels/page.php:21 metaboxes/panels/post.php:91
+#: metaboxes/panels/post.php:103 metaboxes/panels/post_ajax.php:21
+msgid "Default From Theme Options"
+msgstr ""
+
+#: composer/composer_config.php:294
+msgid "Stick"
+msgstr ""
+
+#: composer/composer_config.php:295 includes/theme_config.php:267
+#: includes/theme_config.php:1218 metaboxes/panels/page.php:23
+#: metaboxes/panels/post_ajax.php:24 metaboxes/taxonomy_config.php:38
+#: metaboxes/taxonomy_config.php:205 theme_options/panels/breaking_news.php:117
+#: theme_options/panels/single_post.php:81
+#: theme_options/panels/single_post.php:739
+#: theme_options/panels/styling.php:100
+msgid "None"
+msgstr ""
+
+#: composer/composer_config.php:315 composer/composer_config.php:344
+msgid "Add Block"
+msgstr ""
+
+#: composer/composer_config.php:322 composer/composer_config.php:351
+msgid "Click on \" <strong>BLOCK</strong> \" images to add a new block."
+msgstr ""
+
+#: composer/composer_config.php:323 composer/composer_config.php:352
+msgid "Loading ..."
+msgstr ""
+
+#: composer/composer_setup.php:26
+msgid "Full Width Section"
+msgstr ""
+
+#: composer/composer_setup.php:28
+msgid "Display content without sidebar"
+msgstr ""
+
+#: composer/composer_setup.php:31
+msgid "Has Sidebar Section"
+msgstr ""
+
+#: composer/composer_setup.php:33
+msgid "Display content width sidebar"
+msgstr ""
+
+#: composer/composer_setup.php:47 composer/composer_setup.php:392
+msgid "Featured 1"
+msgstr ""
+
+#: composer/composer_setup.php:48
+msgid "show grid slider (full screen)"
+msgstr ""
+
+#: composer/composer_setup.php:54 composer/composer_setup.php:399
+msgid "Featured 2"
+msgstr ""
+
+#: composer/composer_setup.php:55 composer/composer_setup.php:62
+msgid "show grid slider (fullwidth)"
+msgstr ""
+
+#: composer/composer_setup.php:61
+msgid "Featured 3"
+msgstr ""
+
+#: composer/composer_setup.php:68
+msgid "Featured 4"
+msgstr ""
+
+#: composer/composer_setup.php:69
+msgid "show big grid carousel (2 columns)"
+msgstr ""
+
+#: composer/composer_setup.php:75
+msgid "Featured 5"
+msgstr ""
+
+#: composer/composer_setup.php:76
+msgid "show grid carousel (3 columns)"
+msgstr ""
+
+#: composer/composer_setup.php:82
+msgid "Featured 6"
+msgstr ""
+
+#: composer/composer_setup.php:83
+msgid "show big carousel (full screen)"
+msgstr ""
+
+#: composer/composer_setup.php:89
+msgid "Featured 7"
+msgstr ""
+
+#: composer/composer_setup.php:90 composer/composer_setup.php:97
+#: composer/composer_setup.php:104
+msgid "show featured grid slider layout"
+msgstr ""
+
+#: composer/composer_setup.php:96
+msgid "Featured 8"
+msgstr ""
+
+#: composer/composer_setup.php:103
+msgid "Featured 9"
+msgstr ""
+
+#: composer/composer_setup.php:110
+msgid "Featured 10"
+msgstr ""
+
+#: composer/composer_setup.php:111
+msgid "show featured carousel slider"
+msgstr ""
+
+#: composer/composer_setup.php:117
+msgid "Featured 11"
+msgstr ""
+
+#: composer/composer_setup.php:118
+msgid "show featured slider (fullwidth)"
+msgstr ""
+
+#: composer/composer_setup.php:124
+msgid "Featured 12"
+msgstr ""
+
+#: composer/composer_setup.php:125
+msgid "show featured slider with nav slider (fullwidth)"
+msgstr ""
+
+#: composer/composer_setup.php:131 composer/composer_setup.php:434
+#: includes/theme_config.php:1013 includes/theme_config.php:1073
+#: metaboxes/taxonomy_config.php:116
+msgid "Grid 1"
+msgstr ""
+
+#: composer/composer_setup.php:132
+msgid "show default grid layout (3 columns)"
+msgstr ""
+
+#: composer/composer_setup.php:138 composer/composer_setup.php:441
+#: includes/theme_config.php:1018 includes/theme_config.php:1078
+#: metaboxes/taxonomy_config.php:117
+msgid "Grid 2"
+msgstr ""
+
+#: composer/composer_setup.php:139
+msgid "show big grid layout (2 columns)"
+msgstr ""
+
+#: composer/composer_setup.php:145 composer/composer_setup.php:448
+#: includes/theme_config.php:1083 metaboxes/taxonomy_config.php:118
+msgid "Grid 3"
+msgstr ""
+
+#: composer/composer_setup.php:146
+msgid "show small grid layout (5 columns)"
+msgstr ""
+
+#: composer/composer_setup.php:152 composer/composer_setup.php:455
+#: includes/theme_config.php:1088 metaboxes/taxonomy_config.php:119
+msgid "Grid 4"
+msgstr ""
+
+#: composer/composer_setup.php:153
+msgid "show small grid layout (3 columns)"
+msgstr ""
+
+#: composer/composer_setup.php:159 composer/composer_setup.php:462
+#: includes/theme_config.php:1093 metaboxes/taxonomy_config.php:120
+msgid "Grid 5"
+msgstr ""
+
+#: composer/composer_setup.php:160
+msgid "show small grid without thumbnail (3 columns)"
+msgstr ""
+
+#: composer/composer_setup.php:166 composer/composer_setup.php:469
+msgid "Grid 6"
+msgstr ""
+
+#: composer/composer_setup.php:167
+msgid "show small grid without thumbnail (4 columns)"
+msgstr ""
+
+#: composer/composer_setup.php:173
+msgid "Grid 7"
+msgstr ""
+
+#: composer/composer_setup.php:174
+msgid "show overlay grid (2 columns)"
+msgstr ""
+
+#: composer/composer_setup.php:180
+msgid "Grid 8"
+msgstr ""
+
+#: composer/composer_setup.php:181 composer/composer_setup.php:188
+msgid "show overlay grid (3 columns)"
+msgstr ""
+
+#: composer/composer_setup.php:187
+msgid "Grid 9"
+msgstr ""
+
+#: composer/composer_setup.php:194
+msgid "Gallery Grid 1"
+msgstr ""
+
+#: composer/composer_setup.php:195 composer/composer_setup.php:202
+msgid "show gallery grid with popup slider in fullwidth section"
+msgstr ""
+
+#: composer/composer_setup.php:201
+msgid "Gallery Grid 2"
+msgstr ""
+
+#: composer/composer_setup.php:209 composer/composer_setup.php:581
+msgid "Playlist 1"
+msgstr ""
+
+#: composer/composer_setup.php:210 composer/composer_setup.php:217
+msgid "show video playlist in fullwidth section"
+msgstr ""
+
+#: composer/composer_setup.php:216 composer/composer_setup.php:588
+msgid "Playlist 2"
+msgstr ""
+
+#: composer/composer_setup.php:223
+msgid "One-third 1 (33%)"
+msgstr ""
+
+#: composer/composer_setup.php:224 composer/composer_setup.php:231
+#: composer/composer_setup.php:238 composer/composer_setup.php:245
+msgid "show one-third list layout in full-width section (33% width)"
+msgstr ""
+
+#: composer/composer_setup.php:230
+msgid "One-third 2 (33%)"
+msgstr ""
+
+#: composer/composer_setup.php:237
+msgid "One-third 3 (33%)"
+msgstr ""
+
+#: composer/composer_setup.php:244
+msgid "One-third 4 (33%)"
+msgstr ""
+
+#: composer/composer_setup.php:252 composer/composer_setup.php:596
+msgid ""
+"show HTMl content, this block allows you can input text, HTML, shortcodes, "
+"iframe..."
+msgstr ""
+
+#: composer/composer_setup.php:258 composer/composer_setup.php:602
+msgid "Advertising"
+msgstr ""
+
+#: composer/composer_setup.php:259
+msgid "show Advertisement box in fullwidth section"
+msgstr ""
+
+#: composer/composer_setup.php:265 composer/composer_setup.php:609
+#: theme_options/panels/header.php:201
+msgid "Shortcodes"
+msgstr ""
+
+#: composer/composer_setup.php:266
+msgid "show shortcodes in fullwidth section"
+msgstr ""
+
+#: composer/composer_setup.php:272 composer/composer_setup.php:616
+msgid "Subscribe"
+msgstr ""
+
+#: composer/composer_setup.php:273
+msgid "show subscribe form in fullwidth section"
+msgstr ""
+
+#: composer/composer_setup.php:279
+msgid "Column - Images"
+msgstr ""
+
+#: composer/composer_setup.php:280
+msgid "show column images and destination links in full-width section."
+msgstr ""
+
+#: composer/composer_setup.php:286 composer/composer_setup.php:623
+msgid "Column - Raw HTML"
+msgstr ""
+
+#: composer/composer_setup.php:287
+msgid "show column raw HTML in full-width section."
+msgstr ""
+
+#: composer/composer_setup.php:294
+msgid "Block 1"
+msgstr ""
+
+#: composer/composer_setup.php:295 composer/composer_setup.php:302
+#: composer/composer_setup.php:309 composer/composer_setup.php:316
+#: composer/composer_setup.php:323 composer/composer_setup.php:330
+#: composer/composer_setup.php:337 composer/composer_setup.php:344
+#: composer/composer_setup.php:351 composer/composer_setup.php:358
+#: composer/composer_setup.php:365 composer/composer_setup.php:372
+#: composer/composer_setup.php:379 composer/composer_setup.php:386
+msgid "show grid layout in has sidebar section"
+msgstr ""
+
+#: composer/composer_setup.php:301
+msgid "Block 2"
+msgstr ""
+
+#: composer/composer_setup.php:308
+msgid "Block 3"
+msgstr ""
+
+#: composer/composer_setup.php:315
+msgid "Block 4"
+msgstr ""
+
+#: composer/composer_setup.php:322
+msgid "Block 5"
+msgstr ""
+
+#: composer/composer_setup.php:329
+msgid "Block 6"
+msgstr ""
+
+#: composer/composer_setup.php:336
+msgid "Block 7"
+msgstr ""
+
+#: composer/composer_setup.php:343
+msgid "Block 8"
+msgstr ""
+
+#: composer/composer_setup.php:350
+msgid "Block 9"
+msgstr ""
+
+#: composer/composer_setup.php:357
+msgid "Block 10"
+msgstr ""
+
+#: composer/composer_setup.php:364
+msgid "Block 11"
+msgstr ""
+
+#: composer/composer_setup.php:371
+msgid "Block 12"
+msgstr ""
+
+#: composer/composer_setup.php:378
+msgid "Block 13"
+msgstr ""
+
+#: composer/composer_setup.php:385
+msgid "Block 14"
+msgstr ""
+
+#: composer/composer_setup.php:393 composer/composer_setup.php:400
+msgid "show featured slider in has sidebar section"
+msgstr ""
+
+#: composer/composer_setup.php:406
+msgid "One-half 1 (50%)"
+msgstr ""
+
+#: composer/composer_setup.php:407 composer/composer_setup.php:414
+#: composer/composer_setup.php:421 composer/composer_setup.php:428
+msgid "show one-half list layout in has sidebar section (50% width)"
+msgstr ""
+
+#: composer/composer_setup.php:413
+msgid "One-half 2 (50%)"
+msgstr ""
+
+#: composer/composer_setup.php:420
+msgid "One-half 3 (50%)"
+msgstr ""
+
+#: composer/composer_setup.php:427
+msgid "One-half 4 (50%)"
+msgstr ""
+
+#: composer/composer_setup.php:435 composer/composer_setup.php:442
+#: composer/composer_setup.php:449 composer/composer_setup.php:456
+msgid ""
+"show the grid layout (2 columns) of list of posts in the has-sidebar section"
+msgstr ""
+
+#: composer/composer_setup.php:463
+msgid ""
+"show the grid layout (3 columns) of list of posts in the has-sidebar section"
+msgstr ""
+
+#: composer/composer_setup.php:470
+msgid ""
+"show overlay grid layout (3 columns) of list of posts in the has-sidebar "
+"section"
+msgstr ""
+
+#: composer/composer_setup.php:476 includes/theme_config.php:1098
+#: metaboxes/taxonomy_config.php:121
+msgid "List 1"
+msgstr ""
+
+#: composer/composer_setup.php:477 composer/composer_setup.php:484
+#: composer/composer_setup.php:491
+msgid "show the list layout of list of posts in the has-sidebar section"
+msgstr ""
+
+#: composer/composer_setup.php:483 includes/theme_config.php:1103
+#: metaboxes/taxonomy_config.php:122
+msgid "List 2"
+msgstr ""
+
+#: composer/composer_setup.php:490 includes/theme_config.php:1108
+#: metaboxes/taxonomy_config.php:123
+msgid "List 3"
+msgstr ""
+
+#: composer/composer_setup.php:497 includes/theme_config.php:1063
+#: metaboxes/panels/composer.php:58 metaboxes/taxonomy_config.php:114
+#: metaboxes/taxonomy_config.php:146 theme_options/panels/blog_archive.php:125
+#: theme_options/panels/blog_archive.php:239
+#: theme_options/panels/blog_archive.php:353
+#: theme_options/panels/blog_archive.php:476
+#: theme_options/panels/blog_archive.php:599
+#: theme_options/panels/blog_index.php:136
+msgid "Classic 1"
+msgstr ""
+
+#: composer/composer_setup.php:498 composer/composer_setup.php:505
+msgid "show the classic layout of list of posts in the has-sidebar section"
+msgstr ""
+
+#: composer/composer_setup.php:504 includes/theme_config.php:1068
+#: metaboxes/panels/composer.php:59 metaboxes/taxonomy_config.php:115
+#: metaboxes/taxonomy_config.php:147 theme_options/panels/blog_archive.php:126
+#: theme_options/panels/blog_archive.php:240
+#: theme_options/panels/blog_archive.php:354
+#: theme_options/panels/blog_archive.php:477
+#: theme_options/panels/blog_archive.php:600
+#: theme_options/panels/blog_index.php:137
+msgid "Classic 2"
+msgstr ""
+
+#: composer/composer_setup.php:511
+msgid "Mix 1"
+msgstr ""
+
+#: composer/composer_setup.php:512 composer/composer_setup.php:519
+msgid "show mix layout, 1st classic layout and then list Layout"
+msgstr ""
+
+#: composer/composer_setup.php:518
+msgid "Mix 2"
+msgstr ""
+
+#: composer/composer_setup.php:525
+msgid "Mix 3"
+msgstr ""
+
+#: composer/composer_setup.php:526 composer/composer_setup.php:554
+msgid "show mix layout, 1st classic layout and then grid Layout (2 columns)"
+msgstr ""
+
+#: composer/composer_setup.php:532
+msgid "Mix 4"
+msgstr ""
+
+#: composer/composer_setup.php:533 composer/composer_setup.php:561
+msgid "show mix layout, 1st classic layout and then grid Layout (3 columns)"
+msgstr ""
+
+#: composer/composer_setup.php:539
+msgid "Mix 5"
+msgstr ""
+
+#: composer/composer_setup.php:540 composer/composer_setup.php:547
+msgid "show mix layout, 1st classic layout (style 2) and then list Layout"
+msgstr ""
+
+#: composer/composer_setup.php:546
+msgid "Mix 6"
+msgstr ""
+
+#: composer/composer_setup.php:553
+msgid "Mix 7"
+msgstr ""
+
+#: composer/composer_setup.php:560
+msgid "Mix 8"
+msgstr ""
+
+#: composer/composer_setup.php:567
+msgid "Galley 1"
+msgstr ""
+
+#: composer/composer_setup.php:568 composer/composer_setup.php:575
+msgid "show gallery grid in has sidebar section"
+msgstr ""
+
+#: composer/composer_setup.php:574
+msgid "Gallery 2"
+msgstr ""
+
+#: composer/composer_setup.php:582 composer/composer_setup.php:589
+msgid "show video playlist in has sidebar section"
+msgstr ""
+
+#: composer/composer_setup.php:603
+msgid "show Advertisement box in has sidebar section"
+msgstr ""
+
+#: composer/composer_setup.php:610
+msgid "show shortcodes in has sidebar section"
+msgstr ""
+
+#: composer/composer_setup.php:617
+msgid "show subscribe form in has sidebar section"
+msgstr ""
+
+#: composer/composer_setup.php:624
+msgid "show column raw HTML in has sidebar section."
+msgstr ""
+
+#: functions.php:22
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:23 theme_options/panels/header.php:326
+msgid "Small Navigation"
+msgstr ""
+
+#: functions.php:24
+msgid "Top Navigation"
+msgstr ""
+
+#: functions.php:25
+msgid "Off-Canvas Navigation"
+msgstr ""
+
+#: functions.php:26
+msgid "Footer Navigation"
+msgstr ""
+
+#: functions.php:71 functions.php:72
+msgid "on"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:80
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:83
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:97
+msgid "sub item"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:101
+msgid "Move up"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:102
+msgid "Move down"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:104
+msgid "Edit Menu Item"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:114
+msgid "URL"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:122
+msgid "Navigation Label"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:129
+msgid "Title Attribute"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:135
+msgid "Menu Icon Name: "
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:137
+msgid ""
+"Input the class name of Font Awesome icon. ie: <strong>fa-heart</strong>"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:144
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:150
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:157
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:165
+msgid "Category Mega Menu: "
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:167
+msgid "Display the latest posts of this category"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:172
+msgid "Ajax pagination: "
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:174
+msgid "Enable ajax pagination for blog listing of this mega item"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:182
+msgid "Columns Mega Menu: "
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:184
+msgid "The theme support columns mega menu (4 columns)"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:188
+msgid "BG Image URL: "
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:190
+msgid ""
+"Input url of image background for this mega menu, leave blank if you want to "
+"disable this option"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:196
+msgid "Description"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:199
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:205
+msgid "Move"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:206
+msgid "Up one"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:207
+msgid "Down one"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:210
+msgid "To the top"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:217
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:220
+msgid "Remove"
+msgstr ""
+
+#: includes/menu/menu_mega_backend.php:221
+msgid "Cancel"
+msgstr ""
+
+#: includes/menu/menu_mega_frontend.php:209
+msgid "Please assign a menu to the primary menu location under "
+msgstr ""
+
+#: includes/menu/menu_mega_frontend.php:209
+msgid "menu"
+msgstr ""
+
+#: includes/post_audio.php:47
+msgid ""
+"This WordPress version does not support self-hosted audio, please update "
+"WordPress to the latest version to display this audio."
+msgstr ""
+
+#: includes/post_video.php:46
+msgid ""
+"This WordPress version does not support self-hosted video, please update "
+"WordPress to the latest version to display this video."
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:10 includes/theme_config.php:238
+msgid "Default Sidebar"
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:11
+msgid "The default sidebar of the this theme."
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:26
+msgid "A sidebar section of your website."
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:38
+msgid "Off-Canvas Section"
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:39
+msgid ""
+"The hidden section at the left of your website. This section contains mobile "
+"navigation and widgets for displaying mobile devices."
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:49
+msgid "Navigation - Right Section"
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:50
+msgid ""
+"The section at the right of the main navigation, this section only allows "
+"the text widget content and navbar button widget."
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:61
+msgid "First Top Column of Blog Page"
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:62
+msgid ""
+"one of the columns at the top of the latest blog page (index.php). This "
+"section only allows full-width widgets"
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:72
+msgid "Second Top Column of Blog Page"
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:73
+#: includes/sidebar/sidebar_section.php:84
+msgid "one of the columns at the top of the latest blog page (index.php)."
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:83
+msgid "Third Top Column of Blog Page"
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:95
+msgid "Top Footer (Full-Width)"
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:96
+msgid "Full-width section at the top of the footer area."
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:106
+msgid "Footer 1"
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:107
+#: includes/sidebar/sidebar_section.php:118
+#: includes/sidebar/sidebar_section.php:129
+msgid "one of the columns of the footer area."
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:117
+msgid "Footer 2"
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:128
+msgid "Footer 3"
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:139
+msgid "Footer 4"
+msgstr ""
+
+#: includes/sidebar/sidebar_section.php:140
+msgid ""
+"one of the columns of the footer area, this section is only available when "
+"you enable 4 columns in Newsmax > Footer Options > Footer style."
+msgstr ""
+
+#: includes/theme_config.php:40
+msgid "Style 1 (Default)"
+msgstr ""
+
+#: includes/theme_config.php:41
+msgid "Style 2 (Navigation with Logo)"
+msgstr ""
+
+#: includes/theme_config.php:42
+msgid "Style 3 (Navigation with Logo)"
+msgstr ""
+
+#: includes/theme_config.php:43
+msgid "Style 4 (Full-width Navigation)"
+msgstr ""
+
+#: includes/theme_config.php:44
+msgid "Style 5 (Dark Navigation)"
+msgstr ""
+
+#: includes/theme_config.php:45
+msgid "Style 6 (Center Logo + Navigation)"
+msgstr ""
+
+#: includes/theme_config.php:46
+msgid "Style 7 (Center Logo)"
+msgstr ""
+
+#: includes/theme_config.php:62
+msgid "Style 1 (3 columns)"
+msgstr ""
+
+#: includes/theme_config.php:63
+msgid "Style 2 (4 columns)"
+msgstr ""
+
+#: includes/theme_config.php:64
+msgid "Style 3 (None column & center logo)"
+msgstr ""
+
+#: includes/theme_config.php:90
+msgid "-- All categories --"
+msgstr ""
+
+#: includes/theme_config.php:128 includes/theme_config.php:310
+#: includes/theme_config.php:313 includes/theme_config.php:365
+#: includes/theme_config.php:404
+msgid "-- Disable --"
+msgstr ""
+
+#: includes/theme_config.php:154
+msgid "-- All --"
+msgstr ""
+
+#: includes/theme_config.php:155 includes/theme_config.php:286
+msgid "Default"
+msgstr ""
+
+#: includes/theme_config.php:156
+msgid "Gallery"
+msgstr ""
+
+#: includes/theme_config.php:157
+msgid "Video"
+msgstr ""
+
+#: includes/theme_config.php:158
+msgid "Audio"
+msgstr ""
+
+#: includes/theme_config.php:176 includes/theme_config.php:473
+#: metaboxes/taxonomy_config.php:71
+msgid "Latest Post"
+msgstr ""
+
+#: includes/theme_config.php:177 includes/theme_config.php:474
+#: metaboxes/taxonomy_config.php:72
+msgid "Popular Comment"
+msgstr ""
+
+#: includes/theme_config.php:178 includes/theme_config.php:475
+#: metaboxes/taxonomy_config.php:73
+msgid "Popular View"
+msgstr ""
+
+#: includes/theme_config.php:179 includes/theme_config.php:476
+#: metaboxes/taxonomy_config.php:74
+msgid "Popular Week View"
+msgstr ""
+
+#: includes/theme_config.php:180 includes/theme_config.php:477
+#: metaboxes/taxonomy_config.php:75
+msgid "Top Review"
+msgstr ""
+
+#: includes/theme_config.php:181 includes/theme_config.php:478
+#: metaboxes/taxonomy_config.php:76
+msgid "Latest Review"
+msgstr ""
+
+#: includes/theme_config.php:182 includes/theme_config.php:479
+#: metaboxes/taxonomy_config.php:77
+msgid "Post Type"
+msgstr ""
+
+#: includes/theme_config.php:183 includes/theme_config.php:480
+#: metaboxes/taxonomy_config.php:78
+msgid "Random"
+msgstr ""
+
+#: includes/theme_config.php:184 includes/theme_config.php:481
+#: metaboxes/taxonomy_config.php:79 templates/template_breadcrumb.php:188
+#: theme_options/panels/single_post.php:61 theme_options/panels/styling.php:82
+msgid "Author"
+msgstr ""
+
+#: includes/theme_config.php:185 includes/theme_config.php:482
+#: metaboxes/taxonomy_config.php:80
+msgid "Title DECS"
+msgstr ""
+
+#: includes/theme_config.php:186 includes/theme_config.php:483
+#: metaboxes/taxonomy_config.php:81
+msgid "Title ACS"
+msgstr ""
+
+#: includes/theme_config.php:212
+msgid "All Authors"
+msgstr ""
+
+#: includes/theme_config.php:311 includes/theme_config.php:314
+#: includes/theme_config.php:366 metaboxes/panels/composer.php:22
+#: metaboxes/panels/composer.php:48 metaboxes/panels/video.php:66
+#: metaboxes/panels/video.php:78 metaboxes/taxonomy_config.php:134
+msgid "Enable"
+msgstr ""
+
+#: includes/theme_config.php:330 theme_options/panels/blog_styling.php:100
+msgid "Use Post Excerpt"
+msgstr ""
+
+#: includes/theme_config.php:331 theme_options/panels/blog_styling.php:101
+msgid "Use More Tag"
+msgstr ""
+
+#: includes/theme_config.php:345
+msgid "-- Float Left --"
+msgstr ""
+
+#: includes/theme_config.php:346 theme_options/panels/blog_styling.php:145
+msgid "Float Right"
+msgstr ""
+
+#: includes/theme_config.php:385
+msgid "-- Has Wrapper --"
+msgstr ""
+
+#: includes/theme_config.php:386 theme_options/panels/footer.php:57
+#: theme_options/panels/general.php:27 theme_options/panels/header.php:129
+msgid "Full Width"
+msgstr ""
+
+#: includes/theme_config.php:405
+msgid "by Categories"
+msgstr ""
+
+#: includes/theme_config.php:406
+msgid "by Tags Names"
+msgstr ""
+
+#: includes/theme_config.php:407
+msgid "by Authors"
+msgstr ""
+
+#: includes/theme_config.php:408
+msgid "by Popular"
+msgstr ""
+
+#: includes/theme_config.php:435
+msgid " -- Disable -- "
+msgstr ""
+
+#: includes/theme_config.php:436 includes/theme_config.php:1129
+#: includes/theme_config.php:1136 metaboxes/taxonomy_config.php:174
+msgid "Next Prev"
+msgstr ""
+
+#: includes/theme_config.php:437 includes/theme_config.php:1130
+#: metaboxes/taxonomy_config.php:175
+msgid "Load More"
+msgstr ""
+
+#: includes/theme_config.php:438
+msgid "infinite Scroll"
+msgstr ""
+
+#: includes/theme_config.php:455
+msgid "-- Light --"
+msgstr ""
+
+#: includes/theme_config.php:456 includes/theme_config.php:1038
+#: theme_options/panels/blog_styling.php:156
+#: theme_options/panels/footer.php:104 theme_options/panels/footer.php:163
+#: theme_options/panels/styling.php:150
+msgid "Dark"
+msgstr ""
+
+#: includes/theme_config.php:501
+msgid " -- Style 1 -- "
+msgstr ""
+
+#: includes/theme_config.php:502 includes/theme_config.php:1236
+#: metaboxes/taxonomy_config.php:50
+msgid "Style 2 (Top Title)"
+msgstr ""
+
+#: includes/theme_config.php:503 includes/theme_config.php:1237
+#: metaboxes/taxonomy_config.php:51
+msgid "Style 3 (Middle Title)"
+msgstr ""
+
+#: includes/theme_config.php:504 includes/theme_config.php:1238
+#: metaboxes/taxonomy_config.php:52
+msgid "Style 4 (Rainbow)"
+msgstr ""
+
+#: includes/theme_config.php:505 includes/theme_config.php:1239
+#: metaboxes/taxonomy_config.php:53
+msgid "Style 5 (Rainbow + Middle Title)"
+msgstr ""
+
+#: includes/theme_config.php:525
+msgid " -- Dark -- "
+msgstr ""
+
+#: includes/theme_config.php:526 includes/theme_config.php:1043
+#: theme_options/panels/blog_styling.php:155
+#: theme_options/panels/footer.php:105 theme_options/panels/footer.php:164
+#: theme_options/panels/styling.php:149
+msgid "Light"
+msgstr ""
+
+#: includes/theme_config.php:571
+msgid "1 column"
+msgstr ""
+
+#: includes/theme_config.php:572
+msgid "2 columns"
+msgstr ""
+
+#: includes/theme_config.php:573
+msgid " -- 3 columns -- "
+msgstr ""
+
+#: includes/theme_config.php:574
+msgid "4 columns"
+msgstr ""
+
+#: includes/theme_config.php:593
+msgid "-- Style 1 ---"
+msgstr ""
+
+#: includes/theme_config.php:594
+msgid "Style 2 (Overlay)"
+msgstr ""
+
+#: includes/theme_config.php:595
+msgid "Style 3 (Overlay)"
+msgstr ""
+
+#: includes/theme_config.php:782
+msgid "Style 1 (Left Menu, Right social)"
+msgstr ""
+
+#: includes/theme_config.php:783
+msgid "Style 2 (Left Social, Right Menu)"
+msgstr ""
+
+#: includes/theme_config.php:784
+msgid "Style 3 (Left All)"
+msgstr ""
+
+#: includes/theme_config.php:802 includes/theme_config.php:857
+#: includes/theme_config.php:887 includes/theme_config.php:1158
+#: metaboxes/taxonomy_config.php:26 theme_options/panels/styling.php:25
+msgid "Style 1"
+msgstr ""
+
+#: includes/theme_config.php:807 includes/theme_config.php:862
+#: includes/theme_config.php:892 includes/theme_config.php:1163
+#: metaboxes/taxonomy_config.php:27 theme_options/panels/styling.php:26
+#: theme_options/panels/styling.php:40
+msgid "Style 2"
+msgstr ""
+
+#: includes/theme_config.php:812 includes/theme_config.php:867
+#: includes/theme_config.php:1168 metaboxes/taxonomy_config.php:28
+#: theme_options/panels/styling.php:27 theme_options/panels/styling.php:41
+msgid "Style 3"
+msgstr ""
+
+#: includes/theme_config.php:817 includes/theme_config.php:1173
+#: metaboxes/taxonomy_config.php:29 theme_options/panels/styling.php:28
+#: theme_options/panels/styling.php:42
+msgid "Style 4"
+msgstr ""
+
+#: includes/theme_config.php:822 includes/theme_config.php:1178
+#: metaboxes/taxonomy_config.php:30 theme_options/panels/styling.php:29
+#: theme_options/panels/styling.php:43
+msgid "Style 5"
+msgstr ""
+
+#: includes/theme_config.php:827 includes/theme_config.php:1183
+#: metaboxes/taxonomy_config.php:31 theme_options/panels/styling.php:44
+msgid "Style 6"
+msgstr ""
+
+#: includes/theme_config.php:832 includes/theme_config.php:1188
+#: metaboxes/taxonomy_config.php:32
+msgid "Style 7"
+msgstr ""
+
+#: includes/theme_config.php:837 includes/theme_config.php:1193
+#: metaboxes/taxonomy_config.php:33
+msgid "Style 8"
+msgstr ""
+
+#: includes/theme_config.php:912
+msgid "Style Slider 1"
+msgstr ""
+
+#: includes/theme_config.php:917
+msgid "Style Slider 2"
+msgstr ""
+
+#: includes/theme_config.php:922
+msgid "Style Grid 1"
+msgstr ""
+
+#: includes/theme_config.php:927
+msgid "Style Grid 2"
+msgstr ""
+
+#: includes/theme_config.php:959
+msgid "At The Bottom"
+msgstr ""
+
+#: includes/theme_config.php:964
+msgid "At The Top"
+msgstr ""
+
+#: includes/theme_config.php:984
+msgid "Grid (3 Columns)"
+msgstr ""
+
+#: includes/theme_config.php:989
+msgid "Grid (2 columns)"
+msgstr ""
+
+#: includes/theme_config.php:994
+msgid "List"
+msgstr ""
+
+#: includes/theme_config.php:1128 includes/theme_config.php:1135
+#: metaboxes/taxonomy_config.php:173
+msgid "Numeric"
+msgstr ""
+
+#: includes/theme_config.php:1131 metaboxes/taxonomy_config.php:176
+msgid "Infinite Scroll"
+msgstr ""
+
+#: includes/theme_config.php:1198 metaboxes/taxonomy_config.php:34
+msgid "Style 9"
+msgstr ""
+
+#: includes/theme_config.php:1203 metaboxes/taxonomy_config.php:35
+msgid "Style 10"
+msgstr ""
+
+#: includes/theme_config.php:1208 metaboxes/taxonomy_config.php:36
+msgid "Style 11"
+msgstr ""
+
+#: includes/theme_config.php:1213 metaboxes/taxonomy_config.php:37
+msgid "Style 12"
+msgstr ""
+
+#: includes/theme_config.php:1235 metaboxes/taxonomy_config.php:49
+msgid "-- Style 1 --"
+msgstr ""
+
+#: includes/translation.php:34
+msgid "at"
+msgstr ""
+
+#: includes/translation.php:35
+msgid "posted on"
+msgstr ""
+
+#: includes/translation.php:36 theme_options/panels/styling.php:90
+msgid "Share"
+msgstr ""
+
+#: includes/translation.php:37
+msgid "Shares"
+msgstr ""
+
+#: includes/translation.php:38 theme_options/panels/single_post.php:68
+#: theme_options/panels/styling.php:88
+msgid "View"
+msgstr ""
+
+#: includes/translation.php:39
+msgid "Views"
+msgstr ""
+
+#: includes/translation.php:40
+msgid "No comment"
+msgstr ""
+
+#: includes/translation.php:41
+msgid "1 comment"
+msgstr ""
+
+#: includes/translation.php:42
+#, php-format
+msgid "%s comments"
+msgstr ""
+
+#: includes/translation.php:43
+msgid "1 view"
+msgstr ""
+
+#: includes/translation.php:44
+#, php-format
+msgid "%s views"
+msgstr ""
+
+#: includes/translation.php:45
+msgid "1 share"
+msgstr ""
+
+#: includes/translation.php:46
+#, php-format
+msgid "%s shares"
+msgstr ""
+
+#: includes/translation.php:47
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/translation.php:48
+msgid "Tags:"
+msgstr ""
+
+#: includes/translation.php:49
+msgid "Source:"
+msgstr ""
+
+#: includes/translation.php:50
+msgid "Via:"
+msgstr ""
+
+#: includes/translation.php:51
+msgid "Review overview"
+msgstr ""
+
+#: includes/translation.php:52
+msgid "All posts by"
+msgstr ""
+
+#: includes/translation.php:53
+#, php-format
+msgid "%s posts"
+msgstr ""
+
+#: includes/translation.php:54
+msgid "the author"
+msgstr ""
+
+#: includes/translation.php:55
+msgid "previous article"
+msgstr ""
+
+#: includes/translation.php:56
+msgid "next article"
+msgstr ""
+
+#: includes/translation.php:57
+msgid "Leave a reply "
+msgstr ""
+
+#: includes/translation.php:58
+msgid "show 1 comment"
+msgstr ""
+
+#: includes/translation.php:59
+#, php-format
+msgid "show %s comments"
+msgstr ""
+
+#: includes/translation.php:60
+msgid "Name"
+msgstr ""
+
+#: includes/translation.php:61
+msgid "Email"
+msgstr ""
+
+#: includes/translation.php:62
+msgid "Website"
+msgstr ""
+
+#: includes/translation.php:63
+msgid "Write your comment here"
+msgstr ""
+
+#: includes/translation.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: includes/translation.php:65
+msgid "If this does not what you looking for, please try another search."
+msgstr ""
+
+#: includes/translation.php:66
+msgid "No results for your search, please try another search."
+msgstr ""
+
+#: includes/translation.php:67
+msgid "Search and hit enter&hellip;"
+msgstr ""
+
+#: includes/translation.php:68
+msgid "Type to search&hellip;"
+msgstr ""
+
+#: includes/translation.php:69
+msgid "view all results"
+msgstr ""
+
+#: includes/translation.php:70
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: includes/translation.php:71
+msgid "Home"
+msgstr ""
+
+#: includes/translation.php:72
+#, php-format
+msgid "Posts by: %s"
+msgstr ""
+
+#: includes/translation.php:73
+msgid "Error 404"
+msgstr ""
+
+#: includes/translation.php:74
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: includes/translation.php:75
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: includes/translation.php:76
+msgid "The latest posts"
+msgstr ""
+
+#: includes/translation.php:77
+msgid "Nothing Found"
+msgstr ""
+
+#: includes/translation.php:78
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: includes/translation.php:79
+msgid "load more"
+msgstr ""
+
+#: includes/translation.php:80
+msgid "of"
+msgstr ""
+
+#: includes/translation.php:81
+msgid "Older Posts"
+msgstr ""
+
+#: includes/translation.php:82
+msgid "Newer Posts"
+msgstr ""
+
+#: includes/translation.php:83
+msgid "Archives"
+msgstr ""
+
+#: includes/translation.php:84
+#, php-format
+msgid "Year Archives: %s"
+msgstr ""
+
+#: includes/translation.php:85
+#, php-format
+msgid "Month Archives: %s"
+msgstr ""
+
+#: includes/translation.php:86
+#, php-format
+msgid "Day Archives: %s"
+msgstr ""
+
+#: includes/translation.php:87
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: includes/translation.php:88
+msgid "all"
+msgstr ""
+
+#: includes/translation.php:89
+msgid "featured"
+msgstr ""
+
+#: includes/translation.php:90
+msgid "all times"
+msgstr ""
+
+#: includes/translation.php:91
+msgid "popular week"
+msgstr ""
+
+#: includes/translation.php:92
+msgid "more"
+msgstr ""
+
+#: metaboxes/panels/audio.php:10
+msgid "AUDIO OPTIONS"
+msgstr ""
+
+#: metaboxes/panels/audio.php:17
+msgid "Audio URL"
+msgstr ""
+
+#: metaboxes/panels/audio.php:18
+msgid "input your audio URL, support: SoundCloud, MixCloud"
+msgstr ""
+
+#: metaboxes/panels/audio.php:23 metaboxes/panels/video.php:23
+msgid "Iframe Embed Code"
+msgstr ""
+
+#: metaboxes/panels/audio.php:24
+msgid "input iframe embed code if WordPress cannot support your audio URL."
+msgstr ""
+
+#: metaboxes/panels/audio.php:29
+msgid "Self-Hosted Audio"
+msgstr ""
+
+#: metaboxes/panels/audio.php:30
+msgid "upload your audio file, support: mp3, ogg, wma, m4a, wav files."
+msgstr ""
+
+#: metaboxes/panels/audio.php:36
+msgid "Audio Duration"
+msgstr ""
+
+#: metaboxes/panels/audio.php:37
+msgid "input a duration time for your audio, for example: 1:32."
+msgstr ""
+
+#: metaboxes/panels/audio.php:42
+msgid "Audio Layout"
+msgstr ""
+
+#: metaboxes/panels/audio.php:43
+msgid ""
+"select a layout for this audio post, this option will override default "
+"settings in theme options."
+msgstr ""
+
+#: metaboxes/panels/composer.php:10
+msgid "COMPOSER LATEST BLOG SECTION"
+msgstr ""
+
+#: metaboxes/panels/composer.php:17
+msgid "Enable Section"
+msgstr ""
+
+#: metaboxes/panels/composer.php:18
+msgid ""
+"Enable or disable the latest blog listing section, this section displays a "
+"blog listings at the bottom of this page with numeric or next/prev "
+"pagination."
+msgstr ""
+
+#: metaboxes/panels/composer.php:21 metaboxes/panels/composer.php:47
+msgid "--Disable--"
+msgstr ""
+
+#: metaboxes/panels/composer.php:28
+msgid "Section Title"
+msgstr ""
+
+#: metaboxes/panels/composer.php:29
+msgid "input a title for this section."
+msgstr ""
+
+#: metaboxes/panels/composer.php:31
+msgid "the latest news"
+msgstr ""
+
+#: metaboxes/panels/composer.php:35 theme_options/panels/blog_index.php:117
+msgid "Blog Layout"
+msgstr ""
+
+#: metaboxes/panels/composer.php:36
+msgid ""
+"select a layout for this section. The blog styling options in Newsmax > Blog/"
+"Page Templates > Blog Styling will apply to this section."
+msgstr ""
+
+#: metaboxes/panels/composer.php:43 metaboxes/taxonomy_config.php:128
+#: theme_options/panels/blog_archive.php:113
+#: theme_options/panels/blog_archive.php:227
+#: theme_options/panels/blog_archive.php:341
+#: theme_options/panels/blog_archive.php:464
+#: theme_options/panels/blog_archive.php:587
+#: theme_options/panels/blog_index.php:124
+msgid "1st Classic Layout"
+msgstr ""
+
+#: metaboxes/panels/composer.php:44 metaboxes/taxonomy_config.php:130
+#: theme_options/panels/blog_archive.php:114
+#: theme_options/panels/blog_archive.php:228
+#: theme_options/panels/blog_archive.php:342
+#: theme_options/panels/blog_archive.php:465
+#: theme_options/panels/blog_archive.php:588
+#: theme_options/panels/blog_index.php:125
+msgid ""
+"enable or disable classic layout at the first post of the blog listing, This "
+"option will not apply to classic layouts."
+msgstr ""
+
+#: metaboxes/panels/composer.php:54 metaboxes/taxonomy_config.php:140
+#: theme_options/panels/blog_archive.php:120
+#: theme_options/panels/blog_archive.php:234
+#: theme_options/panels/blog_archive.php:348
+#: theme_options/panels/blog_archive.php:471
+#: theme_options/panels/blog_archive.php:594
+#: theme_options/panels/blog_index.php:131
+msgid "1st Classic Style"
+msgstr ""
+
+#: metaboxes/panels/composer.php:55 metaboxes/taxonomy_config.php:142
+#: theme_options/panels/blog_archive.php:121
+#: theme_options/panels/blog_archive.php:235
+#: theme_options/panels/blog_archive.php:349
+#: theme_options/panels/blog_archive.php:472
+#: theme_options/panels/blog_archive.php:595
+#: theme_options/panels/blog_index.php:132
+msgid "select a style for the 1st classic layout."
+msgstr ""
+
+#: metaboxes/panels/composer.php:65 theme_options/panels/breaking_news.php:61
+#: theme_options/panels/single_post_related.php:173
+msgid "Categories Filter"
+msgstr ""
+
+#: metaboxes/panels/composer.php:66
+msgid ""
+"input category IDs you want to filter, separated by commas (example: 1,2,3). "
+"Leave blank if you want to display all categories."
+msgstr ""
+
+#: metaboxes/panels/composer.php:72
+msgid "number of posts"
+msgstr ""
+
+#: metaboxes/panels/composer.php:73
+#: theme_options/panels/single_post_related.php:203
+msgid "select number of posts for this section."
+msgstr ""
+
+#: metaboxes/panels/composer.php:80 theme_options/panels/blog_archive.php:46
+#: theme_options/panels/blog_index.php:57
+#: theme_options/panels/breaking_news.php:92
+#: theme_options/panels/single_post_related.php:212
+msgid ""
+"select number of posts to displace or pass over. The beginning number is 0."
+msgstr ""
+
+#: metaboxes/panels/composer.php:87
+msgid "Pagination Style"
+msgstr ""
+
+#: metaboxes/panels/composer.php:88
+msgid "select a pagination style for this section."
+msgstr ""
+
+#: metaboxes/panels/composer.php:96
+msgid "Select a sidebar for this section."
+msgstr ""
+
+#: metaboxes/panels/composer.php:104
+msgid "select sidebar position for this section."
+msgstr ""
+
+#: metaboxes/panels/gallery.php:10
+msgid "GALLERY OPTIONS"
+msgstr ""
+
+#: metaboxes/panels/gallery.php:17
+msgid "Upload Gallery"
+msgstr ""
+
+#: metaboxes/panels/gallery.php:18
+msgid "upload your images for this gallery."
+msgstr ""
+
+#: metaboxes/panels/gallery.php:25
+msgid "Single Gallery Layout"
+msgstr ""
+
+#: metaboxes/panels/gallery.php:26
+msgid ""
+"select a layout for this gallery post, this option will override default "
+"settings in theme options."
+msgstr ""
+
+#: metaboxes/panels/page.php:10
+msgid "PAGE OPTIONS"
+msgstr ""
+
+#: metaboxes/panels/page.php:18
+msgid "Page Title"
+msgstr ""
+
+#: metaboxes/panels/page.php:19
+msgid "enable or disable this page title."
+msgstr ""
+
+#: metaboxes/panels/page.php:22
+msgid "Show"
+msgstr ""
+
+#: metaboxes/panels/post.php:10
+msgid "SUBTITLE OPTION"
+msgstr ""
+
+#: metaboxes/panels/post.php:17
+msgid "Title Tagline"
+msgstr ""
+
+#: metaboxes/panels/post.php:18
+msgid ""
+"input a tagline title for this post, this tagline will display under the "
+"single post title."
+msgstr ""
+
+#: metaboxes/panels/post.php:35
+msgid "POST OPTIONS"
+msgstr ""
+
+#: metaboxes/panels/post.php:41
+msgid "Primary Category"
+msgstr ""
+
+#: metaboxes/panels/post.php:45
+msgid "Select a Primary Category"
+msgstr ""
+
+#: metaboxes/panels/post.php:46
+msgid ""
+"It is useful in case this post has a lot of categories and you want to "
+"display only one in listings."
+msgstr ""
+
+#: metaboxes/panels/post.php:52
+msgid "Featured Credit Text"
+msgstr ""
+
+#: metaboxes/panels/post.php:53
+msgid ""
+"input a credit text for the featured image, leave blank if you want to use "
+"caption."
+msgstr ""
+
+#: metaboxes/panels/post.php:72
+msgid "LAYOUT OPTIONS"
+msgstr ""
+
+#: metaboxes/panels/post.php:80
+msgid "Featured Image Layout"
+msgstr ""
+
+#: metaboxes/panels/post.php:81
+msgid ""
+"select a layout (featured image) for this post, this option will override "
+"default settings in theme options."
+msgstr ""
+
+#: metaboxes/panels/post.php:88 theme_options/panels/single_post.php:329
+msgid "Featured Image Size"
+msgstr ""
+
+#: metaboxes/panels/post.php:89
+msgid ""
+"select a size for this featured image, this option will override default "
+"settings in theme options."
+msgstr ""
+
+#: metaboxes/panels/post.php:92 theme_options/panels/single_post.php:332
+#: theme_options/panels/styling.php:160
+msgid "Full Size"
+msgstr ""
+
+#: metaboxes/panels/post.php:93 theme_options/panels/single_post.php:333
+#: theme_options/panels/styling.php:161
+msgid "Crop Size"
+msgstr ""
+
+#: metaboxes/panels/post.php:100
+msgid "Header Align"
+msgstr ""
+
+#: metaboxes/panels/post.php:101
+msgid "select a style for the header of this post: left or center."
+msgstr ""
+
+#: metaboxes/panels/post.php:104 theme_options/panels/single_post.php:447
+msgid "Left Mode"
+msgstr ""
+
+#: metaboxes/panels/post.php:105 theme_options/panels/single_post.php:448
+msgid "Center Mode"
+msgstr ""
+
+#: metaboxes/panels/post_ajax.php:10
+msgid "AJAX OPTIONS"
+msgstr ""
+
+#: metaboxes/panels/post_ajax.php:17 theme_options/panels/single_post.php:733
+msgid "Single Ajax Type"
+msgstr ""
+
+#: metaboxes/panels/post_ajax.php:18
+msgid "select a ajax type for this post."
+msgstr ""
+
+#: metaboxes/panels/post_ajax.php:22 theme_options/panels/single_post.php:738
+msgid "Infinite Load Older Posts"
+msgstr ""
+
+#: metaboxes/panels/post_ajax.php:23 theme_options/panels/single_post.php:737
+msgid "Ajax Load Related Posts"
+msgstr ""
+
+#: metaboxes/panels/post_forgery.php:10
+msgid "FORGERY SHARES, VIEWS OPTIONS"
+msgstr ""
+
+#: metaboxes/panels/post_forgery.php:17
+msgid "Post - Shares Forgery"
+msgstr ""
+
+#: metaboxes/panels/post_forgery.php:18 metaboxes/panels/post_forgery.php:25
+msgid ""
+"input a special total value for this post, leave blank if you want to "
+"display real data."
+msgstr ""
+
+#: metaboxes/panels/post_forgery.php:24
+msgid "Post - Views Forgery"
+msgstr ""
+
+#: metaboxes/panels/review.php:10
+msgid "POST REVIEWS"
+msgstr ""
+
+#: metaboxes/panels/review.php:16
+msgid "Review Product"
+msgstr ""
+
+#: metaboxes/panels/review.php:20
+msgid "enable or disable the review feature for this post."
+msgstr ""
+
+#: metaboxes/panels/review.php:24 metaboxes/panels/review.php:28
+#: theme_options/panels/single_post.php:166
+msgid "Review Box Position"
+msgstr ""
+
+#: metaboxes/panels/review.php:33
+msgid "Criteria 1 Description"
+msgstr ""
+
+#: metaboxes/panels/review.php:38
+msgid "Criteria 1 Score"
+msgstr ""
+
+#: metaboxes/panels/review.php:49
+msgid "Criteria 2 Description"
+msgstr ""
+
+#: metaboxes/panels/review.php:54
+msgid "Criteria 2 Score"
+msgstr ""
+
+#: metaboxes/panels/review.php:65
+msgid "Criteria 3 Description"
+msgstr ""
+
+#: metaboxes/panels/review.php:70
+msgid "Criteria 3 Score"
+msgstr ""
+
+#: metaboxes/panels/review.php:81
+msgid "Criteria 4 Description"
+msgstr ""
+
+#: metaboxes/panels/review.php:86
+msgid "Criteria 4 Score"
+msgstr ""
+
+#: metaboxes/panels/review.php:97
+msgid "Criteria 5 Description"
+msgstr ""
+
+#: metaboxes/panels/review.php:102
+msgid "Criteria 5 Score"
+msgstr ""
+
+#: metaboxes/panels/review.php:113
+msgid "Criteria 6 Description"
+msgstr ""
+
+#: metaboxes/panels/review.php:118
+msgid "Criteria 6 Score"
+msgstr ""
+
+#: metaboxes/panels/review.php:129
+msgid "Criteria 7 Description"
+msgstr ""
+
+#: metaboxes/panels/review.php:134
+msgid "Criteria 7 Score"
+msgstr ""
+
+#: metaboxes/panels/review.php:145
+msgid "Average Score"
+msgstr ""
+
+#: metaboxes/panels/review.php:152
+msgid "Pros Summary Section"
+msgstr ""
+
+#: metaboxes/panels/review.php:154
+msgid ""
+"input pros summary for this review, separated by \"/\" example: positive 1/"
+"positive 2/positive 3"
+msgstr ""
+
+#: metaboxes/panels/review.php:159
+msgid "Cons Summary Section"
+msgstr ""
+
+#: metaboxes/panels/review.php:160
+msgid ""
+"input cons summary for this review, separated by \"/\" example: negative 1/"
+"negative 2/negative 3"
+msgstr ""
+
+#: metaboxes/panels/review.php:166
+msgid "Product Summary Section"
+msgstr ""
+
+#: metaboxes/panels/sidebar.php:10
+msgid "SIDEBAR OPTIONS"
+msgstr ""
+
+#: metaboxes/panels/sidebar.php:19
+msgid ""
+"select a sidebar for this post, This option will override default settings "
+"in theme options."
+msgstr ""
+
+#: metaboxes/panels/sidebar.php:25
+msgid "sidebar Position"
+msgstr ""
+
+#: metaboxes/panels/sidebar.php:26
+msgid ""
+"select sidebar position for this post, This option will override default "
+"settings in theme options."
+msgstr ""
+
+#: metaboxes/panels/source.php:10
+msgid "POST SOURCE OPTIONS"
+msgstr ""
+
+#: metaboxes/panels/source.php:17
+msgid "Source Name"
+msgstr ""
+
+#: metaboxes/panels/source.php:18
+msgid ""
+"input a source name for this post, it will display at the bottom of post "
+"content."
+msgstr ""
+
+#: metaboxes/panels/source.php:25
+msgid "Source URL"
+msgstr ""
+
+#: metaboxes/panels/source.php:26
+msgid "input a source URL for this post."
+msgstr ""
+
+#: metaboxes/panels/source.php:33
+msgid "Via Name"
+msgstr ""
+
+#: metaboxes/panels/source.php:34
+msgid ""
+"input a via name for this post, it will display at the bottom of post "
+"content."
+msgstr ""
+
+#: metaboxes/panels/source.php:41
+msgid "via URL"
+msgstr ""
+
+#: metaboxes/panels/source.php:42
+msgid "input a via URL for this post."
+msgstr ""
+
+#: metaboxes/panels/video.php:10
+msgid "VIDEO OPTIONS"
+msgstr ""
+
+#: metaboxes/panels/video.php:17
+msgid "Video URL"
+msgstr ""
+
+#: metaboxes/panels/video.php:18
+msgid "input your video link, support: Youtube, Vimeo, DailyMotion"
+msgstr ""
+
+#: metaboxes/panels/video.php:24
+msgid "input iframe embed code if WordPress cannot support your video URL."
+msgstr ""
+
+#: metaboxes/panels/video.php:29
+msgid "Self-Hosted Video"
+msgstr ""
+
+#: metaboxes/panels/video.php:30
+msgid "upload your video file, support: mp4, m4v, webm, ogv, wmv, flv files."
+msgstr ""
+
+#: metaboxes/panels/video.php:36
+msgid "Video Duration"
+msgstr ""
+
+#: metaboxes/panels/video.php:37
+msgid "input a duration time for your video, for example: 1:32."
+msgstr ""
+
+#: metaboxes/panels/video.php:42
+msgid "Video Featured Style"
+msgstr ""
+
+#: metaboxes/panels/video.php:43
+msgid "Select a featured style for this video post."
+msgstr ""
+
+#: metaboxes/panels/video.php:45 metaboxes/taxonomy_config.php:25
+#: metaboxes/taxonomy_config.php:48 metaboxes/taxonomy_config.php:70
+#: metaboxes/taxonomy_config.php:113 metaboxes/taxonomy_config.php:133
+#: metaboxes/taxonomy_config.php:145 metaboxes/taxonomy_config.php:172
+#: metaboxes/taxonomy_config.php:202
+msgid "Default Form Theme Options"
+msgstr ""
+
+#: metaboxes/panels/video.php:46
+msgid "Iframe (Replace Featured Image)"
+msgstr ""
+
+#: metaboxes/panels/video.php:47
+msgid "Popup With Play Button"
+msgstr ""
+
+#: metaboxes/panels/video.php:54
+msgid "Video Layout"
+msgstr ""
+
+#: metaboxes/panels/video.php:55
+msgid ""
+"select a layout for this video post, this option will override default "
+"settings in theme options."
+msgstr ""
+
+#: metaboxes/panels/video.php:62
+msgid "Video Related"
+msgstr ""
+
+#: metaboxes/panels/video.php:63
+msgid "enable or disable video related box for this post."
+msgstr ""
+
+#: metaboxes/panels/video.php:65 metaboxes/panels/video.php:77
+msgid "Default from Theme Options"
+msgstr ""
+
+#: metaboxes/panels/video.php:67 metaboxes/panels/video.php:79
+#: metaboxes/taxonomy_config.php:135
+msgid "Disable"
+msgstr ""
+
+#: metaboxes/panels/video.php:75
+msgid "enable or disable autoplay video for this post."
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:15
+msgid "CATEGORY FEATURED AREA OPTIONS"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:20 theme_options/panels/blog_archive.php:22
+msgid "Featured Style"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:22
+msgid "select a featured layout for this category."
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:43 theme_options/panels/blog_archive.php:64
+msgid "Featured Grid Style"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:45
+msgid "Select a featured grid style for this category."
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:58 theme_options/panels/blog_archive.php:32
+#: theme_options/panels/breaking_news.php:69
+#: theme_options/panels/single_post_related.php:184
+msgid "Tags Filter"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:60
+msgid ""
+"input tags name for this featured area, separated by commas (for example: "
+"tag1,tag2,tag3). Leave blank if you want to use default settings from Theme "
+"Options."
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:65 theme_options/panels/blog_archive.php:38
+#: theme_options/panels/breaking_news.php:75
+#: theme_options/panels/single_post_related.php:195
+msgid "Sorted By"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:67
+msgid "Select a sort type for this featured area."
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:86 theme_options/panels/blog_archive.php:45
+#: theme_options/panels/breaking_news.php:91
+#: theme_options/panels/single_post_related.php:211
+msgid "Offset of Posts"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:88
+msgid ""
+"select number of posts to displace or pass over. Leave blank or set 0 if you "
+"want to use settings of Theme Options. Set -1 if you want to have beginning "
+"number is 0."
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:93 theme_options/panels/blog_archive.php:54
+msgid "Number of Slides/Posts"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:95
+msgid ""
+"select number of slides or posts (depending on the style you selected) for "
+"this featured area. Leave blank or set 0 if you want to use settings of "
+"theme options."
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:103
+msgid "CATEGORY LAYOUT OPTIONS"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:108 theme_options/panels/blog_archive.php:106
+msgid "Category Layout"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:110
+msgid "select a layout for this category."
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:154
+msgid ""
+"select number of posts for this category. Leave blank or set 0 if you want "
+"to use settings of theme options."
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:162
+msgid "CATEGORY PAGINATION OPTIONS"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:167
+msgid "Category Pagination"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:169
+msgid "Select pagination style for this category."
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:184
+msgid "CATEGORY SIDEBAR OPTIONS"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:189 theme_options/panels/blog_archive.php:176
+msgid "Category Sidebar Name"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:191
+msgid "Select a sidebar for this category."
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:197 theme_options/panels/blog_archive.php:184
+msgid "Category Sidebar Position"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:199
+msgid "Select sidebar position for this category."
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:213
+msgid "CATEGORY COLOR OPTIONS"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:218
+msgid "Category Info Color"
+msgstr ""
+
+#: metaboxes/taxonomy_config.php:219
+msgid ""
+"select a color value for this category info (in hex value, for example: "
+"#ff4545). Leave blank if you want to set as default color."
+msgstr ""
+
+#: searchform.php:3
+msgid "search for:"
+msgstr ""
+
+#: templates/blocks/fw_block_ad.php:86 templates/blocks/hs_block_ad.php:86
+msgid "- Advertisement -"
+msgstr ""
+
+#: templates/blocks/fw_block_gallery_1.php:155
+#: templates/blocks/fw_block_gallery_2.php:138
+#: templates/blocks/hs_block_gallery_1.php:159
+#: templates/blocks/hs_block_gallery_2.php:138
+msgid "gallery grid"
+msgstr ""
+
+#: templates/blocks/fw_block_grid_1.php:108
+#: templates/blocks/fw_block_grid_2.php:109
+#: templates/blocks/fw_block_grid_3.php:109
+#: templates/blocks/fw_block_grid_4.php:109
+#: templates/blocks/fw_block_grid_5.php:109
+#: templates/blocks/fw_block_grid_6.php:109
+#: templates/blocks/fw_block_grid_7.php:118
+#: templates/blocks/fw_block_grid_8.php:118
+#: templates/blocks/fw_block_grid_9.php:118
+#: templates/blocks/fw_block_onet_1.php:112
+#: templates/blocks/fw_block_onet_2.php:113
+#: templates/blocks/fw_block_onet_3.php:114
+#: templates/blocks/fw_block_onet_4.php:114 templates/blocks/hs_block_1.php:126
+#: templates/blocks/hs_block_10.php:119 templates/blocks/hs_block_11.php:119
+#: templates/blocks/hs_block_12.php:119 templates/blocks/hs_block_13.php:119
+#: templates/blocks/hs_block_14.php:119 templates/blocks/hs_block_2.php:128
+#: templates/blocks/hs_block_3.php:126 templates/blocks/hs_block_4.php:124
+#: templates/blocks/hs_block_5.php:125 templates/blocks/hs_block_6.php:125
+#: templates/blocks/hs_block_7.php:123 templates/blocks/hs_block_8.php:119
+#: templates/blocks/hs_block_9.php:119
+#: templates/blocks/hs_block_classic_1.php:108
+#: templates/blocks/hs_block_classic_2.php:108
+#: templates/blocks/hs_block_grid_1.php:109
+#: templates/blocks/hs_block_grid_2.php:108
+#: templates/blocks/hs_block_grid_3.php:108
+#: templates/blocks/hs_block_grid_4.php:108
+#: templates/blocks/hs_block_grid_5.php:109
+#: templates/blocks/hs_block_grid_6.php:117
+#: templates/blocks/hs_block_list_1.php:109
+#: templates/blocks/hs_block_list_2.php:109
+#: templates/blocks/hs_block_list_3.php:109
+#: templates/blocks/hs_block_mix_1.php:114
+#: templates/blocks/hs_block_mix_2.php:114
+#: templates/blocks/hs_block_mix_3.php:121
+#: templates/blocks/hs_block_mix_4.php:121
+#: templates/blocks/hs_block_mix_5.php:114
+#: templates/blocks/hs_block_mix_6.php:114
+#: templates/blocks/hs_block_mix_7.php:121
+#: templates/blocks/hs_block_mix_8.php:121
+#: templates/blocks/hs_block_oneh_1.php:115
+#: templates/blocks/hs_block_oneh_2.php:115
+#: templates/blocks/hs_block_oneh_3.php:114
+#: templates/blocks/hs_block_oneh_4.php:114
+msgid "latest posts"
+msgstr ""
+
+#: templates/blocks/fw_block_html.php:70 templates/blocks/hs_block_html.php:70
+msgid "custom html"
+msgstr ""
+
+#: templates/blocks/fw_block_shortcode.php:59
+#: templates/blocks/hs_block_shortcode.php:57
+msgid "shortcodes"
+msgstr ""
+
+#: templates/blocks/fw_block_subscribe.php:87
+#: templates/blocks/hs_block_subscribe.php:87
+msgid "Subscribe Newsletter"
+msgstr ""
+
+#: templates/blocks/fw_block_video_1.php:130
+#: templates/blocks/fw_block_video_2.php:134
+msgid "video playlist"
+msgstr ""
+
+#: templates/blocks/hs_block_video_1.php:122
+#: templates/blocks/hs_block_video_2.php:121
+msgid "video posts"
+msgstr ""
+
+#: templates/header/navbar-search.php:19 templates/header/topbar-search.php:8
+msgid "search"
+msgstr ""
+
+#: templates/header/section-breaking_news.php:29
+msgid "No enough post for breaking news, try to select another query"
+msgstr ""
+
+#: templates/header/topbar-cart.php:10
+msgid "View your shopping cart"
+msgstr ""
+
+#: templates/header/topbar-cart.php:31
+msgid "Remove this item"
+msgstr ""
+
+#: templates/header/topbar-cart.php:49
+msgid "No products in the cart."
+msgstr ""
+
+#: templates/header/topbar-cart.php:54
+msgid "Subtotal"
+msgstr ""
+
+#: templates/header/topbar-cart.php:57
+msgid "View Cart"
+msgstr ""
+
+#: templates/header/topbar-cart.php:58
+msgid "Checkout"
+msgstr ""
+
+#: templates/template_block.php:490
+msgid "Sorry, Posts you requested could not be found..."
+msgstr ""
+
+#: templates/template_block.php:501
+#, php-format
+msgid ""
+"Sorry, This block requests minimum %s posts to display, Please try to select "
+"other queries or add more posts..."
+msgstr ""
+
+#: templates/template_breadcrumb.php:183
+#: theme_options/panels/breaking_news.php:118
+msgid "Tags"
+msgstr ""
+
+#: templates/template_breadcrumb.php:201 templates/template_pagination.php:81
+#: woocommerce/loop/pagination.php:50
+msgid "Page"
+msgstr ""
+
+#: templates/template_post.php:103
+msgid "..."
+msgstr ""
+
+#: templates/template_post.php:805 templates/template_thumbnail.php:81
+msgid "edit"
+msgstr ""
+
+#: theme_options/panels/advertising.php:6
+msgid "Advertising Options"
+msgstr ""
+
+#: theme_options/panels/advertising.php:7
+msgid ""
+"input your scripts or custom advertising for your website, this panel will "
+"support advertising for the header and single post pages."
+msgstr ""
+
+#: theme_options/panels/advertising.php:22
+msgid "Header Advertising"
+msgstr ""
+
+#: theme_options/panels/advertising.php:23
+msgid "setup your advertising for the header."
+msgstr ""
+
+#: theme_options/panels/advertising.php:31
+msgid "Header Advertising Options"
+msgstr ""
+
+#: theme_options/panels/advertising.php:37
+msgid "Header Advertising Type"
+msgstr ""
+
+#: theme_options/panels/advertising.php:38
+msgid ""
+"select a advertising type for the header, it will display in the header of "
+"your website."
+msgstr ""
+
+#: theme_options/panels/advertising.php:40
+#: theme_options/panels/advertising.php:88
+#: theme_options/panels/advertising.php:155
+#: theme_options/panels/advertising.php:215
+msgid "Script"
+msgstr ""
+
+#: theme_options/panels/advertising.php:41
+#: theme_options/panels/advertising.php:89
+#: theme_options/panels/advertising.php:156
+#: theme_options/panels/advertising.php:216
+msgid "Custom Image"
+msgstr ""
+
+#: theme_options/panels/advertising.php:50
+msgid "Advertising Script"
+msgstr ""
+
+#: theme_options/panels/advertising.php:51
+#: theme_options/panels/advertising.php:99
+msgid ""
+"input in your advertising code (with \"script\" tag), The theme will modify "
+"Adsense codes to add the responsive feature for all devices."
+msgstr ""
+
+#: theme_options/panels/advertising.php:57
+#: theme_options/panels/advertising.php:105
+msgid "Advertising Image"
+msgstr ""
+
+#: theme_options/panels/advertising.php:58
+msgid "upload your banner image (recommended size is 728*90px)"
+msgstr ""
+
+#: theme_options/panels/advertising.php:64
+#: theme_options/panels/advertising.php:112
+msgid "Advertising URL"
+msgstr ""
+
+#: theme_options/panels/advertising.php:79
+msgid "Top Site Advertising Options"
+msgstr ""
+
+#: theme_options/panels/advertising.php:85
+msgid "Top Site Advertising Type"
+msgstr ""
+
+#: theme_options/panels/advertising.php:86
+msgid "select a advertising type for displaying at the top of your site."
+msgstr ""
+
+#: theme_options/panels/advertising.php:98
+msgid "Advertising Code"
+msgstr ""
+
+#: theme_options/panels/advertising.php:106
+msgid "upload your banner image (recommended size is 1400*300px)."
+msgstr ""
+
+#: theme_options/panels/advertising.php:137
+msgid "Single Advertising"
+msgstr ""
+
+#: theme_options/panels/advertising.php:138
+msgid ""
+"setup your advertising for single post pages. Please Note: Features below "
+"cannot work properly if you enable infinite load posts."
+msgstr ""
+
+#: theme_options/panels/advertising.php:146
+msgid "Single - Top Content Ad"
+msgstr ""
+
+#: theme_options/panels/advertising.php:152
+msgid "Single - Top Content Ad type"
+msgstr ""
+
+#: theme_options/panels/advertising.php:153
+msgid "select a ad type for displaying at the top of post content."
+msgstr ""
+
+#: theme_options/panels/advertising.php:165
+#: theme_options/panels/advertising.php:225
+msgid "Ad Code"
+msgstr ""
+
+#: theme_options/panels/advertising.php:166
+#: theme_options/panels/advertising.php:226
+msgid ""
+"input in your ad code (with \"script\" tag), The theme will modify Adsense "
+"codes to add the responsive feature for all devices."
+msgstr ""
+
+#: theme_options/panels/advertising.php:171
+#: theme_options/panels/advertising.php:231
+msgid "Single - Adsense Size"
+msgstr ""
+
+#: theme_options/panels/advertising.php:172
+#: theme_options/panels/advertising.php:232
+msgid ""
+"select a size for this ad code. Overridden size will make your adsense "
+"responsive."
+msgstr ""
+
+#: theme_options/panels/advertising.php:175
+#: theme_options/panels/advertising.php:235
+msgid "Overridden Size (728*90)"
+msgstr ""
+
+#: theme_options/panels/advertising.php:176
+#: theme_options/panels/advertising.php:236
+msgid "From the Script"
+msgstr ""
+
+#: theme_options/panels/advertising.php:184
+#: theme_options/panels/advertising.php:244
+msgid "Ad Image"
+msgstr ""
+
+#: theme_options/panels/advertising.php:185
+#: theme_options/panels/advertising.php:245
+msgid "upload your banner image (recommended size is 728*90px)."
+msgstr ""
+
+#: theme_options/panels/advertising.php:206
+msgid "Single - Bottom Content Ad"
+msgstr ""
+
+#: theme_options/panels/advertising.php:212
+msgid "Single - Bottom Content Ad type"
+msgstr ""
+
+#: theme_options/panels/advertising.php:213
+msgid "select a ad type for displaying at the bottom of post content."
+msgstr ""
+
+#: theme_options/panels/amp.php:7
+msgid "AMP Options"
+msgstr ""
+
+#: theme_options/panels/amp.php:8
+msgid ""
+"Accelerated Mobile Pages support, This section requests to install the <a "
+"href=\"https://wordpress.org/plugins/amp/\">Automattic AMP</a> plugin first."
+msgstr ""
+
+#: theme_options/panels/amp.php:27
+msgid "AMP - Logo Option"
+msgstr ""
+
+#: theme_options/panels/amp.php:33 theme_options/panels/logo.php:25
+msgid "Logo Upload"
+msgstr ""
+
+#: theme_options/panels/amp.php:34
+msgid "upload your AMP logo, allowed extensions are .jpg, .png and .gif."
+msgstr ""
+
+#: theme_options/panels/amp.php:46
+msgid "AMP Footer Options"
+msgstr ""
+
+#: theme_options/panels/amp.php:52
+msgid "Back to Top"
+msgstr ""
+
+#: theme_options/panels/amp.php:53
+msgid "enable or disable back to top button"
+msgstr ""
+
+#: theme_options/panels/amp.php:58 theme_options/panels/footer.php:78
+msgid "Footer Logo"
+msgstr ""
+
+#: theme_options/panels/amp.php:59
+msgid ""
+"upload your AMP footer logo, allowed extensions are .jpg, .png and .gif."
+msgstr ""
+
+#: theme_options/panels/amp.php:65
+msgid "Footer Menu"
+msgstr ""
+
+#: theme_options/panels/amp.php:66
+msgid "select footer menu for AMP pages."
+msgstr ""
+
+#: theme_options/panels/amp.php:71 theme_options/panels/footer.php:126
+msgid "Copyright Text"
+msgstr ""
+
+#: theme_options/panels/amp.php:72
+msgid "input your copyright text for AMP pages."
+msgstr ""
+
+#: theme_options/panels/amp.php:84
+msgid "AMP Color Options"
+msgstr ""
+
+#: theme_options/panels/amp.php:89
+msgid "Body Background"
+msgstr ""
+
+#: theme_options/panels/amp.php:90
+msgid "select background color for the body of AMP pages."
+msgstr ""
+
+#: theme_options/panels/amp.php:97
+msgid "Body Text Color"
+msgstr ""
+
+#: theme_options/panels/amp.php:98
+msgid "select color for the body text of AMP pages."
+msgstr ""
+
+#: theme_options/panels/amp.php:105
+msgid "Header Background"
+msgstr ""
+
+#: theme_options/panels/amp.php:106
+msgid "select background color for the header of AMP pages."
+msgstr ""
+
+#: theme_options/panels/amp.php:113
+msgid "Title Color"
+msgstr ""
+
+#: theme_options/panels/amp.php:114
+msgid "select color for the headline of AMP pages."
+msgstr ""
+
+#: theme_options/panels/amp.php:121
+msgid "Meta Info Color"
+msgstr ""
+
+#: theme_options/panels/amp.php:122
+msgid "select color for the meta tags of AMP pages."
+msgstr ""
+
+#: theme_options/panels/amp.php:129 theme_options/panels/color.php:268
+msgid "Hyperlink Color"
+msgstr ""
+
+#: theme_options/panels/amp.php:130
+msgid "select color for hyperlinks of AMP pages."
+msgstr ""
+
+#: theme_options/panels/amp.php:137 theme_options/panels/footer.php:31
+msgid "Footer Background"
+msgstr ""
+
+#: theme_options/panels/amp.php:138
+msgid "select footer background color for AMP pages."
+msgstr ""
+
+#: theme_options/panels/amp.php:145
+msgid "Footer Color"
+msgstr ""
+
+#: theme_options/panels/amp.php:146
+msgid "select footer color for AMP pages."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:7
+msgid "Category Page Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:8
+msgid ""
+"Global category options (category.php), options below will apply to all "
+"category pages on your website."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:16
+msgid "Category - Featured Area Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:23
+msgid "select a featured style for displaying at the top of category pages."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:33
+msgid ""
+"select tags name for featured areas. Leave blank if you want to select all "
+"tags."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:39
+msgid "select a sort type for featured areas."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:55
+msgid ""
+"select number of slides or posts (depending on the style you selected) for "
+"featured areas."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:65
+msgid "select a style for featured grids"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:72
+msgid "enable or disable category info on featured grids."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:79
+msgid "enable or disable entry meta info for featured grids."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:86
+msgid "enable or disable share icons for featured grids."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:100
+msgid "Category - Layout Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:107
+msgid "select a layout for category pages."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:132
+#: theme_options/panels/blog_archive.php:246
+#: theme_options/panels/blog_archive.php:360
+#: theme_options/panels/blog_archive.php:483
+#: theme_options/panels/blog_archive.php:606
+#: theme_options/panels/blog_index.php:143
+#: theme_options/panels/breaking_news.php:82
+#: theme_options/panels/single_post_related.php:63
+msgid "Number of Posts"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:133
+msgid ""
+"select number of posts for category pages, this option will override default "
+"settings in \"Settings > Reading > Blog pages show at most. Leave blank or "
+"set 0 if you want to set as the default."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:149
+msgid "Category - Pagination Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:154
+msgid "Category pagination"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:155
+msgid "select a pagination style for category pages (category.php)"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:170
+msgid "Category - Sidebar Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:177
+msgid "Select a sidebar for category pages"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:185
+msgid "Select sidebar position for category pages"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:205
+msgid "Tag Page Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:206
+msgid "tag page options (tag.php), options below will apply to tag pages"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:214
+msgid "Tag Layout Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:220
+msgid "Tag Layout"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:221
+msgid "select a layout for tag pages"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:247
+msgid ""
+"select number of posts for tag pages, this option will override default "
+"settings in \"Settings > Reading > archive pages show at most. Leave blank "
+"or set 0 if you want to set as the default."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:263
+#: theme_options/panels/blog_archive.php:507
+msgid "Pagination Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:268
+msgid "Tag Pagination"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:269
+msgid "select a pagination style for tag pages (tag.php)"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:284
+msgid "Tag Sidebar Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:290
+msgid "Tag Sidebar Name"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:291
+msgid "Select a sidebar for tag pages."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:298
+msgid "Tag Sidebar Position"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:299
+msgid "Select sidebar position for tag pages."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:319
+msgid "Author Page Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:320
+msgid ""
+"author page options (author.php), options below will apply authors pages."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:328
+msgid "Author Layout Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:334
+msgid "Author Layout"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:335
+msgid "select a layout for author pages."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:361
+msgid ""
+"select number of posts for author pages, this option will override default "
+"settings in \"Settings > Reading > archive pages show at most. Leave blank "
+"or set 0 if you want to set as the default."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:369
+msgid "Show Author Card"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:370
+msgid "enable or disable the author card box at the top of author pages."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:384
+#: theme_options/panels/blog_archive.php:623
+#: theme_options/panels/blog_index.php:160
+msgid "Pagination options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:389
+msgid "Author Pagination"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:390
+msgid "select a pagination style for author pages (author.php)"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:405
+msgid "Author Sidebar Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:411
+msgid "Author Sidebar Name"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:412
+msgid "select a sidebar for author pages."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:419
+msgid "Author Sidebar Position"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:420
+msgid "Select sidebar position for author pages."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:441
+msgid "Search Page Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:442
+msgid ""
+"search page options (search.php), options below will apply the search page."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:451
+msgid "Search Layout Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:457
+msgid "Search Layout"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:458
+msgid "select layout for the search page."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:484
+msgid ""
+"select number of posts for the search page, this option will override "
+"default settings in \"Settings > Reading > archive pages show at most. Leave "
+"blank or set 0 if you want to set as the default."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:492
+msgid "Header Search Form"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:493
+msgid "enable or disable the search form at the top of the search page."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:512
+msgid "Search Pagination"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:513
+msgid "select a pagination style for the search page (search.php)"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:529
+msgid "Search Sidebar Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:535
+msgid "Search Sidebar Name"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:536
+msgid "Select a sidebar for the search page."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:543
+msgid "Search Sidebar Position"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:544
+msgid "Select sidebar position for the search page."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:565
+msgid "Archive Page Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:566
+msgid ""
+"archive page options (archive.php), options below will apply archive pages, "
+"WordPress will automatically generate daily, monthly and yearly archives."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:574
+msgid "Archive Layout Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:580
+msgid "Archive Layout"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:581
+msgid "select layout for archive pages."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:607
+msgid ""
+"select number of posts for archive pages, this option will override default "
+"settings in \"Settings > Reading > archive pages show at most. Leave blank "
+"or set 0 if you want to set as default."
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:628
+msgid "archive pagination"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:629
+msgid "select a pagination style for archive pages (archive.php)"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:644
+msgid "Archive Sidebar Options"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:650
+msgid "Archive Sidebar Name"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:651
+msgid "Select sidebar for archive pages"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:658
+msgid "Archive Sidebar Position"
+msgstr ""
+
+#: theme_options/panels/blog_archive.php:659
+msgid "Select sidebar position for archive pages"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:10
+msgid "Blog (Index) Options"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:11
+msgid ""
+"Latest blog page options (index.php), options below will apply to blog page "
+"that is set to \"Your latest posts\" in the \"WordPress Settings -> Reading"
+"\" section."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:19
+msgid "Featured Area Options"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:25
+msgid "Featured Area - Style"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:26
+msgid "select a featured style for displaying at the top of the blog page."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:35
+msgid "Featured Area - Categories Filter"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:36
+msgid ""
+"filter multi categories for blog featured area, leave blank if you want to "
+"select all categories."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:43
+msgid "Featured Area -Tags Filter"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:44
+msgid ""
+"input tags name for the blog featured area. Leave blank if you want to "
+"select all tags."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:49
+msgid "Featured Area - Sorted By"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:50
+msgid "select a sort type for the blog featured area."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:56
+msgid "Featured Area - Offset of Posts"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:65
+msgid "Featured Area - Number of slides/posts"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:66
+msgid ""
+"select number of slides or posts (depending on the style you selected) for "
+"the blog featured area."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:75
+msgid "Featured Area - Grid Style"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:76
+msgid "select a style for the blog featured grid."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:82
+msgid "Featured Area - Category Info"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:83
+msgid "enable or disable category info for the blog featured grid."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:89
+msgid "Featured Area - Meta Tags Info"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:90
+msgid "enable or disable entry meta info for the blog featured grid."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:96
+msgid "Featured Area - Share Icons"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:97
+msgid "enable or disable share icons for the blog featured grid."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:111
+msgid "Blog Layout Options"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:118
+msgid "select a layout for the latest blog page (index.php)."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:144
+msgid ""
+"select number of posts for the latest blog page, this option will override "
+"default settings in \"Settings > Reading > Blog pages show at most. Leave "
+"blank or set 0 if you want to set as the default."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:165
+msgid "blog pagination"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:166
+msgid "select pagination style for the latest blog page (index.php)"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:181
+msgid "Blog Sidebar Options"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:187
+msgid "Blog Sidebar Name"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:188
+msgid "Select a sidebar for the latest blog page."
+msgstr ""
+
+#: theme_options/panels/blog_index.php:195
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: theme_options/panels/blog_index.php:196
+msgid "Select sidebar position for the latest blog page."
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:7
+msgid "Blog/Pages Templates"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:19
+msgid "Blog Styling"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:20
+msgid ""
+"These Options below will apply to all blog pages, templates and composer "
+"latest blog section (it does not apply to blocks are built with Ruby "
+"Composer) : default blog (index.php), categories (category.php), archives "
+"(archive.php), tags (tag.php) and the search page (search.php)."
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:29
+msgid "Meta Info Options"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:34
+msgid "category info"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:35
+msgid "enable or disable the category info for blog listing layouts."
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:42
+msgid "enable or disable entry meta info for blog listing layouts."
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:49
+msgid "enable or disable share icons for blog listing layouts."
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:64
+msgid "Excerpt Options"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:72
+msgid "Grid - Excerpt Length"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:73
+msgid ""
+"select length of excerpts for the grid layout, leave blank or set is 0 if "
+"you want to disable it."
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:81
+msgid "List 1 - Excerpt Length"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:82
+msgid ""
+"select length of excerpts for the list 1 layout, leave blank or set is 0 if "
+"you want to disable it."
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:90
+msgid "List 2 - Excerpt Length"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:91
+msgid ""
+"select length of excerpts for the list 2 layout, leave blank or set is 0 if "
+"you want to disable it."
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:96
+msgid "Classic 1 - Summary Type"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:97
+msgid "Select a summary type for the classic 1 layout."
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:109
+msgid "Classic 1 - Excerpt Length"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:110
+#: theme_options/panels/blog_styling.php:119
+msgid ""
+"select length of excerpts for the classic 1 layout, leave blank or set is 0 "
+"if you want to disable it."
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:118
+msgid "Classic 2 - Excerpt Length"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:135
+msgid "Featured Position Options"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:140
+msgid "List - Thumbnail Position"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:141
+msgid "select thumbnail position for list layouts"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:144
+msgid "Float Left"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:151
+msgid "Classic 2 & List - Color Style"
+msgstr ""
+
+#: theme_options/panels/blog_styling.php:152
+msgid "Select color style for the classic 2 layout and list layouts"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:7
+msgid "Breaking News"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:8
+msgid "options below will apply to the breaking news bar."
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:16
+msgid "Breaking News Options"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:22
+msgid "Show on Ruby Composer Pages"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:23
+msgid ""
+"enable or disable the breaking news bar on pages have built with Ruby "
+"Composer."
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:30
+msgid "Show on The Blog"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:31
+msgid ""
+"enable or disable the breaking news bar on the latest blog page (index.php)"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:38
+msgid "Breaking News Title"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:39
+msgid "input your breaking news title."
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:53
+msgid "Breaking News Filter Options"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:62
+msgid ""
+"filter multi categories for the breaking news bar, leave blank if you want "
+"to select all categories."
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:70
+msgid ""
+"Select tags for breaking news bar, you can select multi tags. Leave blank if "
+"you don't select any tags."
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:76
+msgid "Select a sort type for the breaking news bar."
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:83
+msgid "Select number of posts for the breaking news bar."
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:108
+msgid "Right Element Options"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:114
+msgid "Right Element"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:115
+msgid "select elements to display at the right of the breaking news bar."
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:119
+msgid "Categories"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:126
+msgid "Categories - Custom"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:127
+msgid "select categories you want to display."
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:135
+msgid "Tags - Type"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:136
+msgid "select a type to display at the right of the breaking news bar."
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:144
+msgid "Tags - Number of Tags"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:145
+msgid ""
+"input number of tags for displaying at the right of the breaking news bar."
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:155
+msgid "Tags - Custom"
+msgstr ""
+
+#: theme_options/panels/breaking_news.php:156
+msgid "select tags name you want to display."
+msgstr ""
+
+#: theme_options/panels/color.php:10
+msgid "Color Options"
+msgstr ""
+
+#: theme_options/panels/color.php:11
+msgid "select color options for your website."
+msgstr ""
+
+#: theme_options/panels/color.php:19
+msgid "Global Color Options"
+msgstr ""
+
+#: theme_options/panels/color.php:24 theme_options/panels/woocommerce.php:20
+msgid "Global Color"
+msgstr ""
+
+#: theme_options/panels/color.php:25
+msgid ""
+"select a global color, It will be used for all links, menu, category "
+"overlays, main page and many contrasting elements. leave blank if you want "
+"set as default (#ff4545)."
+msgstr ""
+
+#: theme_options/panels/color.php:41
+msgid "Top Bar Color Options"
+msgstr ""
+
+#: theme_options/panels/color.php:46
+msgid "Top Bar - Background Color"
+msgstr ""
+
+#: theme_options/panels/color.php:47
+msgid ""
+"Select a background color for the top bar. Leave blank if you want to set as "
+"default (#282828)."
+msgstr ""
+
+#: theme_options/panels/color.php:54
+msgid "Top Bar - Text Color"
+msgstr ""
+
+#: theme_options/panels/color.php:55
+msgid ""
+"select a color for top bar text. Please leave blank if you want to set as "
+"default (#ffffff)."
+msgstr ""
+
+#: theme_options/panels/color.php:62
+msgid "Top Bar - Text Hover Color"
+msgstr ""
+
+#: theme_options/panels/color.php:63
+msgid ""
+"select a color when hovering on top bar text. Please leave blank if you want "
+"to set as default (#ffffff)."
+msgstr ""
+
+#: theme_options/panels/color.php:70
+msgid "Top Bar - Border Color"
+msgstr ""
+
+#: theme_options/panels/color.php:71
+msgid ""
+"select top border color for the topbar (2px). Leave blank if you want to "
+"move it."
+msgstr ""
+
+#: theme_options/panels/color.php:87
+msgid "Main Navigation Color Options"
+msgstr ""
+
+#: theme_options/panels/color.php:92
+msgid "Navigation - Background Color"
+msgstr ""
+
+#: theme_options/panels/color.php:93
+msgid ""
+"select a background color for the main navigation. Leave blank if you want "
+"to set as default (#ffffff)."
+msgstr ""
+
+#: theme_options/panels/color.php:100
+msgid "Navigation - Text Color"
+msgstr ""
+
+#: theme_options/panels/color.php:101
+msgid ""
+"select a color for main navigation text. Leave blank if you want to set as "
+"default (#282828)."
+msgstr ""
+
+#: theme_options/panels/color.php:108
+msgid "Navigation - Hover Color"
+msgstr ""
+
+#: theme_options/panels/color.php:109
+msgid ""
+"select a color when hovering on main navigation text. Leave blank if you "
+"want to set as default (#ff4545)."
+msgstr ""
+
+#: theme_options/panels/color.php:117
+msgid "Navigation - Submenu Background Color"
+msgstr ""
+
+#: theme_options/panels/color.php:118
+msgid ""
+"select a background color for sub menu items of the main navigation. Leave "
+"blank if you want to set as default (#ffffff)."
+msgstr ""
+
+#: theme_options/panels/color.php:125
+msgid "Navigation - Submenu Text Color"
+msgstr ""
+
+#: theme_options/panels/color.php:126
+msgid ""
+"select a color for submenu text. Leave blank if you want to set as default "
+"(#282828)."
+msgstr ""
+
+#: theme_options/panels/color.php:133
+msgid "Navigation - Submenu Text Hover Color"
+msgstr ""
+
+#: theme_options/panels/color.php:134
+msgid ""
+"select a color when hovering on submmenu text. Please leave blank if you "
+"want to set as default (#ff4545)."
+msgstr ""
+
+#: theme_options/panels/color.php:142
+msgid "Category Mega Menu Text"
+msgstr ""
+
+#: theme_options/panels/color.php:143
+msgid ""
+"select a style for category mega menu post to suit with your background "
+"settings."
+msgstr ""
+
+#: theme_options/panels/color.php:158
+msgid "Off-canvas Color Options"
+msgstr ""
+
+#: theme_options/panels/color.php:163
+msgid "Off-Canvas - Background Color"
+msgstr ""
+
+#: theme_options/panels/color.php:164
+msgid ""
+"select a background color for the Off-canvas section. This options will "
+"override style option in Off-canvas settings."
+msgstr ""
+
+#: theme_options/panels/color.php:171
+msgid "Off-Canvas - Hover Text Color"
+msgstr ""
+
+#: theme_options/panels/color.php:172
+msgid ""
+"select a color for the Off-canvas text. Leave blank if you want to set "
+"default."
+msgstr ""
+
+#: theme_options/panels/color.php:188
+msgid "Review Color Options"
+msgstr ""
+
+#: theme_options/panels/color.php:193
+msgid "Review Color"
+msgstr ""
+
+#: theme_options/panels/color.php:194
+msgid ""
+"Select a color for review elements, Please leave blank if you want set as "
+"default (#f3d276)."
+msgstr ""
+
+#: theme_options/panels/color.php:210
+msgid "Share Color Options"
+msgstr ""
+
+#: theme_options/panels/color.php:215
+msgid "Social Icon Color"
+msgstr ""
+
+#: theme_options/panels/color.php:216
+msgid ""
+"select a color for social and shares icons, This option will apply to all "
+"icons, leave blank if you want to set as default."
+msgstr ""
+
+#: theme_options/panels/color.php:232
+msgid "Dark Classic & List Color Options"
+msgstr ""
+
+#: theme_options/panels/color.php:237
+msgid "Dark Classic & List Color"
+msgstr ""
+
+#: theme_options/panels/color.php:238
+msgid ""
+"select a dark color for the dark list and classic blog, leave blank if you "
+"want to set as default (#282828)."
+msgstr ""
+
+#: theme_options/panels/color.php:254
+msgid "Single Color Options"
+msgstr ""
+
+#: theme_options/panels/color.php:259
+msgid "Single Title Color"
+msgstr ""
+
+#: theme_options/panels/color.php:260
+msgid ""
+"select a color for single post titles, this option will override on default "
+"theme color, Leave blank if you want to set default."
+msgstr ""
+
+#: theme_options/panels/color.php:269
+msgid ""
+"select a color for hyperlink, this option will override on default theme "
+"color, Leave blank if you want to set default."
+msgstr ""
+
+#: theme_options/panels/css.php:7 theme_options/panels/css.php:14
+msgid "CSS Code"
+msgstr ""
+
+#: theme_options/panels/css.php:9
+msgid ""
+"Custom CSS will be added at end of all other customizations and this can be "
+"used to overwrite rules."
+msgstr ""
+
+#: theme_options/panels/css.php:15
+msgid "enter your CSS code here."
+msgstr ""
+
+#: theme_options/panels/footer.php:7
+msgid "Footer Options"
+msgstr ""
+
+#: theme_options/panels/footer.php:8
+msgid "Select options for the footer."
+msgstr ""
+
+#: theme_options/panels/footer.php:16
+msgid "Footer Style Options"
+msgstr ""
+
+#: theme_options/panels/footer.php:22
+msgid "Footer Style"
+msgstr ""
+
+#: theme_options/panels/footer.php:23
+msgid "select a style for the footer."
+msgstr ""
+
+#: theme_options/panels/footer.php:32
+msgid "select a background for the footer: image, color, etc"
+msgstr ""
+
+#: theme_options/panels/footer.php:45
+msgid "Footer Text Style"
+msgstr ""
+
+#: theme_options/panels/footer.php:46
+msgid "Select a color style for footer text."
+msgstr ""
+
+#: theme_options/panels/footer.php:53
+msgid "Footer Wrapper Mode"
+msgstr ""
+
+#: theme_options/panels/footer.php:54
+msgid "select wrapper for the footer."
+msgstr ""
+
+#: theme_options/panels/footer.php:56 theme_options/panels/header.php:128
+msgid "Has Wrapper"
+msgstr ""
+
+#: theme_options/panels/footer.php:72
+msgid "Footer Social Bar Options"
+msgstr ""
+
+#: theme_options/panels/footer.php:79
+msgid "Upload your footer logo."
+msgstr ""
+
+#: theme_options/panels/footer.php:85
+msgid "Footer - About Us"
+msgstr ""
+
+#: theme_options/panels/footer.php:86
+msgid "input a short paragraph about your website allowed HTML code."
+msgstr ""
+
+#: theme_options/panels/footer.php:92
+msgid "Footer - Social Bar"
+msgstr ""
+
+#: theme_options/panels/footer.php:93
+msgid "enable or disable the footer social bar."
+msgstr ""
+
+#: theme_options/panels/footer.php:99
+msgid "Footer - Social Bar Color"
+msgstr ""
+
+#: theme_options/panels/footer.php:100
+msgid "select a color style for social icons at the footer."
+msgstr ""
+
+#: theme_options/panels/footer.php:103 theme_options/panels/footer.php:162
+msgid "Color"
+msgstr ""
+
+#: theme_options/panels/footer.php:120
+msgid "Copyright Options"
+msgstr ""
+
+#: theme_options/panels/footer.php:127
+msgid "input your copyright text or HTML."
+msgstr ""
+
+#: theme_options/panels/footer.php:132
+msgid "Copyright Background"
+msgstr ""
+
+#: theme_options/panels/footer.php:133
+msgid "Select a background color for the copyright area."
+msgstr ""
+
+#: theme_options/panels/footer.php:141
+msgid "Copyright Text Color"
+msgstr ""
+
+#: theme_options/panels/footer.php:142
+msgid "select a color for the footer copyright text."
+msgstr ""
+
+#: theme_options/panels/footer.php:151
+msgid "Copyright - Social Bar"
+msgstr ""
+
+#: theme_options/panels/footer.php:152
+msgid "enable or disable the the copyright bar."
+msgstr ""
+
+#: theme_options/panels/footer.php:158
+msgid "Copyright - Social Bar Color"
+msgstr ""
+
+#: theme_options/panels/footer.php:159
+msgid "select a color style for social icons at the copyright bar."
+msgstr ""
+
+#: theme_options/panels/footer.php:172
+msgid "Copyright Text Size"
+msgstr ""
+
+#: theme_options/panels/footer.php:173
+msgid ""
+"select a font size value for copyright text. Leave blank if you want to set "
+"as default (13px)."
+msgstr ""
+
+#: theme_options/panels/general.php:9
+msgid "General Options"
+msgstr ""
+
+#: theme_options/panels/general.php:10
+msgid "Select general options for your website."
+msgstr ""
+
+#: theme_options/panels/general.php:18
+msgid "Site Layout Options"
+msgstr ""
+
+#: theme_options/panels/general.php:24
+msgid "Main Site Layout"
+msgstr ""
+
+#: theme_options/panels/general.php:25
+msgid "Select a layout for your site."
+msgstr ""
+
+#: theme_options/panels/general.php:28
+msgid "Boxed"
+msgstr ""
+
+#: theme_options/panels/general.php:36
+msgid "Site Background"
+msgstr ""
+
+#: theme_options/panels/general.php:37
+msgid "Site background with image, color, etc"
+msgstr ""
+
+#: theme_options/panels/general.php:53
+msgid "Site Top/Bottom Padding"
+msgstr ""
+
+#: theme_options/panels/general.php:54
+msgid ""
+"input a padding top/bottom value for the site body. Leave blank if you want "
+"to set as the default."
+msgstr ""
+
+#: theme_options/panels/general.php:68
+msgid "Animation Options"
+msgstr ""
+
+#: theme_options/panels/general.php:74
+msgid "Smooth Scroll"
+msgstr ""
+
+#: theme_options/panels/general.php:75
+msgid "Smooth scrolling with the mouse wheel in all browsers."
+msgstr ""
+
+#: theme_options/panels/general.php:82
+msgid "Smooth Display"
+msgstr ""
+
+#: theme_options/panels/general.php:83
+msgid "Adding animation to display featured images when scrolling down."
+msgstr ""
+
+#: theme_options/panels/general.php:90
+msgid "Animation Style"
+msgstr ""
+
+#: theme_options/panels/general.php:92
+msgid "select animation style for the smooth display feature."
+msgstr ""
+
+#: theme_options/panels/general.php:94
+msgid "Fade In"
+msgstr ""
+
+#: theme_options/panels/general.php:95
+msgid "Zoom In"
+msgstr ""
+
+#: theme_options/panels/general.php:96
+msgid "Fade Form Bottom"
+msgstr ""
+
+#: theme_options/panels/general.php:111
+msgid "Slider Options"
+msgstr ""
+
+#: theme_options/panels/general.php:117
+msgid "Slider Autoplay"
+msgstr ""
+
+#: theme_options/panels/general.php:118
+msgid "enable or disable autoplay for all slider in your website."
+msgstr ""
+
+#: theme_options/panels/general.php:126
+msgid "Slider Play Speed"
+msgstr ""
+
+#: theme_options/panels/general.php:127
+msgid "select slider play speed in milliseconds (default is 5500)."
+msgstr ""
+
+#: theme_options/panels/general.php:141
+msgid "Bookmarklet Icon Options"
+msgstr ""
+
+#: theme_options/panels/general.php:147
+msgid "iOS Bookmarklet Icon"
+msgstr ""
+
+#: theme_options/panels/general.php:148
+msgid ""
+"Upload icon for the Apple touch (72 x 72px), allowed extensions are .jpg, ."
+"png, .gif"
+msgstr ""
+
+#: theme_options/panels/general.php:149
+msgid "72 x 72px"
+msgstr ""
+
+#: theme_options/panels/general.php:154
+msgid "Metro UI Bookmarklet Icon"
+msgstr ""
+
+#: theme_options/panels/general.php:155
+msgid ""
+"Upload icon for the Metro interface (144 x 144px), allowed extensions are ."
+"jpg, .png, .gif"
+msgstr ""
+
+#: theme_options/panels/general.php:156
+msgid "144 x 144px"
+msgstr ""
+
+#: theme_options/panels/general.php:169
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: theme_options/panels/general.php:175
+msgid "Breadcrumbs bar"
+msgstr ""
+
+#: theme_options/panels/general.php:176
+msgid ""
+"Breadcrumbs are a hierarchy of links displayed below the main navigation."
+msgstr ""
+
+#: theme_options/panels/general.php:183
+msgid "Show Current Page/Post Title"
+msgstr ""
+
+#: theme_options/panels/general.php:184
+msgid "enable or disable current page/post title on breadcrumbs bar."
+msgstr ""
+
+#: theme_options/panels/general.php:193
+msgid "Breadcrumb Font Size"
+msgstr ""
+
+#: theme_options/panels/general.php:194
+msgid ""
+"input a font size for the breadcrumb (in px ie: 13). Leave blank if you want "
+"to set as the default (12px)."
+msgstr ""
+
+#: theme_options/panels/general.php:195
+msgid ""
+"font-family value of the breadcrumb depends on main navigation font setting."
+msgstr ""
+
+#: theme_options/panels/general.php:209
+msgid "Tooltips Options"
+msgstr ""
+
+#: theme_options/panels/general.php:215
+msgid "Social Tooltips"
+msgstr ""
+
+#: theme_options/panels/general.php:216
+msgid "enable or disable tooltips on social icons when hovering on icons."
+msgstr ""
+
+#: theme_options/panels/general.php:223
+msgid "Tooltips on Touch Devices"
+msgstr ""
+
+#: theme_options/panels/general.php:224
+msgid "enable or disable tooltip on touch devices"
+msgstr ""
+
+#: theme_options/panels/general.php:225
+msgid "Tooltips are always disabled on IOS devices due to performance."
+msgstr ""
+
+#: theme_options/panels/general.php:239
+msgid "Back to Top Options"
+msgstr ""
+
+#: theme_options/panels/general.php:245
+msgid "Back to Top Button"
+msgstr ""
+
+#: theme_options/panels/general.php:246
+msgid "enable or disable back to top button."
+msgstr ""
+
+#: theme_options/panels/general.php:254
+msgid "Enable On Mobile"
+msgstr ""
+
+#: theme_options/panels/general.php:255
+msgid "enable or disable back to top button on touch/mobile devices."
+msgstr ""
+
+#: theme_options/panels/general.php:270
+msgid "SEO Options"
+msgstr ""
+
+#: theme_options/panels/general.php:276
+msgid "Open Graph"
+msgstr ""
+
+#: theme_options/panels/general.php:277
+msgid ""
+"enable or disable Open Graph, Disable this option if you want to use a 3rd "
+"party plugin."
+msgstr ""
+
+#: theme_options/panels/general.php:285
+msgid "Facebook APP ID"
+msgstr ""
+
+#: theme_options/panels/general.php:286
+msgid "input your facebook app ID."
+msgstr ""
+
+#: theme_options/panels/general.php:292
+msgid "Microdata Markup"
+msgstr ""
+
+#: theme_options/panels/general.php:293
+msgid ""
+"enable or disable microdata markup(schema) for single posts. Disable this "
+"option if you want to use 3rd party plugin."
+msgstr ""
+
+#: theme_options/panels/header.php:6
+msgid "Header Options"
+msgstr ""
+
+#: theme_options/panels/header.php:7
+msgid "select option for the header."
+msgstr ""
+
+#: theme_options/panels/header.php:22 theme_options/panels/header.php:32
+msgid "Header Style Options"
+msgstr ""
+
+#: theme_options/panels/header.php:23
+msgid "select options for the header."
+msgstr ""
+
+#: theme_options/panels/header.php:38
+msgid "Header style"
+msgstr ""
+
+#: theme_options/panels/header.php:39
+msgid "select a style for the header."
+msgstr ""
+
+#: theme_options/panels/header.php:47
+msgid "Banner Background"
+msgstr ""
+
+#: theme_options/panels/header.php:48
+msgid ""
+"select a background for the banner (logo and leaderboard area), this option "
+"will apply to header style 1,3,6 and 7."
+msgstr ""
+
+#: theme_options/panels/header.php:64
+msgid "Logo Padding"
+msgstr ""
+
+#: theme_options/panels/header.php:65
+msgid ""
+"input top and bottom padding value for your logo (in px). Default value is "
+"30px."
+msgstr ""
+
+#: theme_options/panels/header.php:87 theme_options/panels/header.php:97
+msgid "Top Bar Options"
+msgstr ""
+
+#: theme_options/panels/header.php:88
+msgid "select options for the top bar."
+msgstr ""
+
+#: theme_options/panels/header.php:102
+msgid "Top Bar"
+msgstr ""
+
+#: theme_options/panels/header.php:103
+msgid "enable or disable the top bar."
+msgstr ""
+
+#: theme_options/panels/header.php:110
+msgid "Top Bar Style"
+msgstr ""
+
+#: theme_options/panels/header.php:111
+msgid "Select a style for the top bar."
+msgstr ""
+
+#: theme_options/panels/header.php:117
+msgid "Top Bar Navigation"
+msgstr ""
+
+#: theme_options/panels/header.php:118
+msgid "enable or disable navigation at the top bar."
+msgstr ""
+
+#: theme_options/panels/header.php:125
+msgid "Top Bar Width"
+msgstr ""
+
+#: theme_options/panels/header.php:126
+msgid "select a width style for the top bar."
+msgstr ""
+
+#: theme_options/panels/header.php:137
+msgid "Top bar Height"
+msgstr ""
+
+#: theme_options/panels/header.php:138
+msgid ""
+"select a height value (in px) for the top bar, leave blank if you want to "
+"set default (34px)."
+msgstr ""
+
+#: theme_options/panels/header.php:152
+msgid "Top Bar Elements Options"
+msgstr ""
+
+#: theme_options/panels/header.php:157
+msgid "Date Text"
+msgstr ""
+
+#: theme_options/panels/header.php:158
+msgid "enable or disable the date text at the top bar."
+msgstr ""
+
+#: theme_options/panels/header.php:164
+msgid "Date Format"
+msgstr ""
+
+#: theme_options/panels/header.php:165
+msgid ""
+"Input the <a href=\"https://codex.wordpress.org/Formatting_Date_and_Time"
+"\">date format</a>"
+msgstr ""
+
+#: theme_options/panels/header.php:172
+msgid "Javascript Date"
+msgstr ""
+
+#: theme_options/panels/header.php:173
+msgid ""
+"date ajax. enable this option if you have a plan to use 3rd cache plugins."
+msgstr ""
+
+#: theme_options/panels/header.php:180
+msgid "Phone Number Info"
+msgstr ""
+
+#: theme_options/panels/header.php:181
+msgid "input your company phone, Leave blank if you want to remove it."
+msgstr ""
+
+#: theme_options/panels/header.php:187
+msgid "Email Info"
+msgstr ""
+
+#: theme_options/panels/header.php:188
+msgid "input your email info, Leave blank if you want to remove it."
+msgstr ""
+
+#: theme_options/panels/header.php:194
+msgid "Action Links"
+msgstr ""
+
+#: theme_options/panels/header.php:195
+msgid "enable or disable link to send email and call action."
+msgstr ""
+
+#: theme_options/panels/header.php:202
+msgid ""
+"Input your shortcodes if you want to display 3rd plugin shortcodes on the "
+"top bar ie: WPML plugin."
+msgstr ""
+
+#: theme_options/panels/header.php:208
+msgid "Cart Icon"
+msgstr ""
+
+#: theme_options/panels/header.php:209
+msgid "enable or disable the small cart icon of Woocommerce at the top bar."
+msgstr ""
+
+#: theme_options/panels/header.php:215 theme_options/panels/header.php:291
+msgid "Social Icons"
+msgstr ""
+
+#: theme_options/panels/header.php:216
+msgid "enable or disable social icons at the top bar."
+msgstr ""
+
+#: theme_options/panels/header.php:223
+msgid "search icon"
+msgstr ""
+
+#: theme_options/panels/header.php:224
+msgid "enable or disable the search icon at the top bar."
+msgstr ""
+
+#: theme_options/panels/header.php:247
+msgid "Navigation Options"
+msgstr ""
+
+#: theme_options/panels/header.php:248
+msgid "select options for the main navigation of your website."
+msgstr ""
+
+#: theme_options/panels/header.php:257
+msgid "Sticky Options"
+msgstr ""
+
+#: theme_options/panels/header.php:263
+msgid "Sticky Navigation"
+msgstr ""
+
+#: theme_options/panels/header.php:264
+msgid "enable or disable the sticky feature for the main navigation."
+msgstr ""
+
+#: theme_options/panels/header.php:270
+msgid "Smart Sticky"
+msgstr ""
+
+#: theme_options/panels/header.php:271
+msgid "only stick the main navigation when scrolling up."
+msgstr ""
+
+#: theme_options/panels/header.php:285
+msgid "Navigation Elements Options"
+msgstr ""
+
+#: theme_options/panels/header.php:292
+msgid "enable or disable social icons at the right of the main navigation bar."
+msgstr ""
+
+#: theme_options/panels/header.php:298
+msgid "Search Icon"
+msgstr ""
+
+#: theme_options/panels/header.php:299
+msgid ""
+"enable or disable the search icon at the right of the main navigation bar."
+msgstr ""
+
+#: theme_options/panels/header.php:305
+msgid "Search Icon on Mobile"
+msgstr ""
+
+#: theme_options/panels/header.php:306
+msgid ""
+"enable or disable search icon at the right of the main navigation bar on "
+"mobile devices."
+msgstr ""
+
+#: theme_options/panels/header.php:320
+msgid "Small Navigation Options"
+msgstr ""
+
+#: theme_options/panels/header.php:327
+msgid ""
+"enable or disable the small navigation at the left of the main navigation "
+"bar."
+msgstr ""
+
+#: theme_options/panels/header.php:350 theme_options/panels/header.php:359
+msgid "Off-Canvas Options"
+msgstr ""
+
+#: theme_options/panels/header.php:351
+msgid ""
+"select options for the off-canvas section (place to display navigation on "
+"mobile devices)"
+msgstr ""
+
+#: theme_options/panels/header.php:365
+msgid "Off-canvas Style"
+msgstr ""
+
+#: theme_options/panels/header.php:366
+msgid "select a style for the off-canvas section."
+msgstr ""
+
+#: theme_options/panels/header.php:368
+msgid "Light Style"
+msgstr ""
+
+#: theme_options/panels/header.php:369
+msgid "Dark Style"
+msgstr ""
+
+#: theme_options/panels/header.php:376
+msgid "Off-canvas Logo"
+msgstr ""
+
+#: theme_options/panels/header.php:377
+msgid ""
+"enable or disable Off-canvas logo, to upload a logo for Off-canvas section, "
+"Navigate to Logo Options."
+msgstr ""
+
+#: theme_options/panels/header.php:383
+msgid "Off-canvas - Search Form"
+msgstr ""
+
+#: theme_options/panels/header.php:384
+msgid "enable or disable the search form in the off-canvas section."
+msgstr ""
+
+#: theme_options/panels/header.php:390
+msgid "Off-canvas - Social Icons"
+msgstr ""
+
+#: theme_options/panels/header.php:391
+msgid "enable or disable social icons in the off-canvas section."
+msgstr ""
+
+#: theme_options/panels/header.php:397
+msgid "Off-canvas - Widgets Section"
+msgstr ""
+
+#: theme_options/panels/header.php:398
+msgid "enable or disable widgets section in Off-canvas section."
+msgstr ""
+
+#: theme_options/panels/import.php:7
+msgid "Backup/Restore Options"
+msgstr ""
+
+#: theme_options/panels/import.php:8
+msgid ""
+"backup and restore all options of the theme options panel from/to JSON "
+"files, text or URL."
+msgstr ""
+
+#: theme_options/panels/import.php:15
+msgid ""
+"backup and restore all options of the theme options panel from/to JSON "
+"files, text or URL. Click on the button twice when you import options."
+msgstr ""
+
+#: theme_options/panels/logo.php:10
+msgid "Logo Options"
+msgstr ""
+
+#: theme_options/panels/logo.php:11
+msgid "upload logos for your website."
+msgstr ""
+
+#: theme_options/panels/logo.php:19
+msgid "Header Logo Options"
+msgstr ""
+
+#: theme_options/panels/logo.php:26
+msgid ""
+"upload your logo (300x90)px, allowed extensions are .jpg, .png and .gif."
+msgstr ""
+
+#: theme_options/panels/logo.php:31
+msgid "Logo Retina Upload"
+msgstr ""
+
+#: theme_options/panels/logo.php:32
+msgid ""
+"upload your retina logo (520x180)px, allowed extensions are .jpg, .png and ."
+"gif."
+msgstr ""
+
+#: theme_options/panels/logo.php:37
+msgid "Mobile Logo Upload"
+msgstr ""
+
+#: theme_options/panels/logo.php:38
+msgid ""
+"upload logo for displaying on mobile devices(300x90)px, allowed extensions "
+"are .jpg, .png and .gif."
+msgstr ""
+
+#: theme_options/panels/logo.php:43
+msgid "Off-canvas Logo Upload"
+msgstr ""
+
+#: theme_options/panels/logo.php:44
+msgid ""
+"upload logo for the off-canvas section (300x90)px, allowed extensions are ."
+"jpg, .png and .gif"
+msgstr ""
+
+#: theme_options/panels/logo.php:56
+msgid "Attribute options"
+msgstr ""
+
+#: theme_options/panels/logo.php:62
+msgid "logo title"
+msgstr ""
+
+#: theme_options/panels/logo.php:63
+msgid ""
+"input a title attribute for the logo, Most browsers will show a tooltip with "
+"this text when users hover on your logo."
+msgstr ""
+
+#: theme_options/panels/logo.php:69
+msgid "logo alt attribute "
+msgstr ""
+
+#: theme_options/panels/logo.php:70
+msgid ""
+"input an alt attribute for the logo, This text cannot display. It is useful "
+"for SEO and generally is the name of the site."
+msgstr ""
+
+#: theme_options/panels/sidebar.php:7
+msgid "Sidebar Options"
+msgstr ""
+
+#: theme_options/panels/sidebar.php:8
+msgid ""
+"select options for sidebars, options below will apply to whole the website."
+msgstr ""
+
+#: theme_options/panels/sidebar.php:15
+msgid "Sidebar General Options"
+msgstr ""
+
+#: theme_options/panels/sidebar.php:22
+msgid ""
+"select sidebar position for your website, This option will be overridden by "
+"other \"sidebar position\" configs."
+msgstr ""
+
+#: theme_options/panels/sidebar.php:30
+msgid "Custom Multi Sidebars"
+msgstr ""
+
+#: theme_options/panels/sidebar.php:31
+msgid ""
+"create or delete an existing sidebar, don't forget input name for your "
+"sidebar."
+msgstr ""
+
+#: theme_options/panels/sidebar.php:32
+msgid ""
+"click on \"Create Sidebar\" button and then input a name into the field to "
+"create a new sidebar."
+msgstr ""
+
+#: theme_options/panels/sidebar.php:33
+msgid "Create Sidebar"
+msgstr ""
+
+#: theme_options/panels/sidebar.php:39
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: theme_options/panels/sidebar.php:40
+msgid ""
+"making sidebar permanently visible when scrolling up and down. Useful when a "
+"sidebar is too tall or too short compared to the rest of the content. This "
+"features will not apply to mobile devices."
+msgstr ""
+
+#: theme_options/panels/sidebar.php:46
+msgid "Sidebar Style"
+msgstr ""
+
+#: theme_options/panels/sidebar.php:47
+msgid "select a style for sidebars."
+msgstr ""
+
+#: theme_options/panels/sidebar.php:49
+msgid "Default - Semi White Background"
+msgstr ""
+
+#: theme_options/panels/sidebar.php:50
+msgid "No Background"
+msgstr ""
+
+#: theme_options/panels/single_page.php:10
+#: theme_options/panels/single_page.php:19
+msgid "Single Page Options"
+msgstr ""
+
+#: theme_options/panels/single_page.php:11
+msgid ""
+"select options for single pages (page.php), options below will apply to all "
+"pages has been set to \"Default Template\"."
+msgstr ""
+
+#: theme_options/panels/single_page.php:25
+msgid "Single Page Title"
+msgstr ""
+
+#: theme_options/panels/single_page.php:26
+msgid ""
+"enable or disable the page title, this options will apply to all single "
+"pages."
+msgstr ""
+
+#: theme_options/panels/single_page.php:41
+msgid "Single Sidebar Options"
+msgstr ""
+
+#: theme_options/panels/single_page.php:47
+msgid "Single Sidebar name"
+msgstr ""
+
+#: theme_options/panels/single_page.php:48
+msgid ""
+"select default sidebar name the single page page, this option will apply to "
+"all single pages page. You can set an individual sidebar for each page in "
+"the page editor."
+msgstr ""
+
+#: theme_options/panels/single_page.php:57
+msgid ""
+"select sidebar position for single pages, this option will override default "
+"sidebar position. You can set an individual sidebar position for each page "
+"in the page editor."
+msgstr ""
+
+#: theme_options/panels/single_post.php:6
+msgid "Single Post Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:8
+msgid ""
+"select options for single post pages, options below will apply to all single "
+"post pages."
+msgstr ""
+
+#: theme_options/panels/single_post.php:19
+msgid "Single Post Styling"
+msgstr ""
+
+#: theme_options/panels/single_post.php:21
+msgid "options below will apply to all single post pages."
+msgstr ""
+
+#: theme_options/panels/single_post.php:30
+msgid "Single - Category Info Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:37
+msgid "enable or disable the category info for single post pages."
+msgstr ""
+
+#: theme_options/panels/single_post.php:51
+msgid "Single - Meta Info Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:57
+msgid "Entry Meta Bar Manager"
+msgstr ""
+
+#: theme_options/panels/single_post.php:58
+msgid ""
+"organize how you want the entry meta info to appear in single post pages."
+msgstr ""
+
+#: theme_options/panels/single_post.php:62 theme_options/panels/styling.php:89
+msgid "Comment"
+msgstr ""
+
+#: theme_options/panels/single_post.php:65 theme_options/panels/styling.php:83
+msgid "Date"
+msgstr ""
+
+#: theme_options/panels/single_post.php:66 theme_options/panels/styling.php:86
+msgid "Category"
+msgstr ""
+
+#: theme_options/panels/single_post.php:67 theme_options/panels/styling.php:87
+msgid "Tag"
+msgstr ""
+
+#: theme_options/panels/single_post.php:74
+msgid "Share/View Type"
+msgstr ""
+
+#: theme_options/panels/single_post.php:75
+msgid ""
+"select a total counter type to display at the bottom of featured images in "
+"single post pages."
+msgstr ""
+
+#: theme_options/panels/single_post.php:78
+msgid "Total View"
+msgstr ""
+
+#: theme_options/panels/single_post.php:79
+msgid "Total Share"
+msgstr ""
+
+#: theme_options/panels/single_post.php:80
+msgid "Total Share/View"
+msgstr ""
+
+#: theme_options/panels/single_post.php:88
+msgid "Share/View Caption Text"
+msgstr ""
+
+#: theme_options/panels/single_post.php:89
+msgid ""
+"enable or disable the caption text at the end of total view/share elements."
+msgstr ""
+
+#: theme_options/panels/single_post.php:96
+msgid "Full Date Info"
+msgstr ""
+
+#: theme_options/panels/single_post.php:97
+msgid "enable or disable full format date meta info."
+msgstr ""
+
+#: theme_options/panels/single_post.php:105
+msgid "Full Date Info - Date Format"
+msgstr ""
+
+#: theme_options/panels/single_post.php:106
+msgid ""
+"input your date format for the small date element in single post, The "
+"default value is M. d, Y"
+msgstr ""
+
+#: theme_options/panels/single_post.php:114
+msgid "Full Date Info - Time Format"
+msgstr ""
+
+#: theme_options/panels/single_post.php:115
+msgid ""
+"input your time format for the small date element in single post, The "
+"default value is g:i a"
+msgstr ""
+
+#: theme_options/panels/single_post.php:123
+msgid "Avatar Icon"
+msgstr ""
+
+#: theme_options/panels/single_post.php:124
+msgid "enable or disable avatar icon in the single meta info bar."
+msgstr ""
+
+#: theme_options/panels/single_post.php:139
+msgid "Single - Image Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:145
+msgid "Images Popup"
+msgstr ""
+
+#: theme_options/panels/single_post.php:146
+msgid "enable or disable popup images as a gallery in single post content."
+msgstr ""
+
+#: theme_options/panels/single_post.php:147
+msgid "This feature can work if images were been set link to \"media file\"."
+msgstr ""
+
+#: theme_options/panels/single_post.php:161
+msgid "Single - Review Box Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:167
+msgid "Select position for review boxes in single post pages."
+msgstr ""
+
+#: theme_options/panels/single_post.php:175
+msgid "Summary Title"
+msgstr ""
+
+#: theme_options/panels/single_post.php:176
+msgid "input a title for summary sections."
+msgstr ""
+
+#: theme_options/panels/single_post.php:177
+msgid "Summary"
+msgstr ""
+
+#: theme_options/panels/single_post.php:182
+msgid "Pros Title"
+msgstr ""
+
+#: theme_options/panels/single_post.php:183
+msgid "input a title for pros sections."
+msgstr ""
+
+#: theme_options/panels/single_post.php:184
+msgid "The Pros"
+msgstr ""
+
+#: theme_options/panels/single_post.php:189
+msgid "Cons Title"
+msgstr ""
+
+#: theme_options/panels/single_post.php:190
+msgid "input a title for cons sections."
+msgstr ""
+
+#: theme_options/panels/single_post.php:191
+msgid "The Cons"
+msgstr ""
+
+#: theme_options/panels/single_post.php:203
+msgid "Single - Box Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:209
+msgid "Next/Prev Navigation"
+msgstr ""
+
+#: theme_options/panels/single_post.php:210
+msgid ""
+"enable or disable the next/previous link navigation in single post pages."
+msgstr ""
+
+#: theme_options/panels/single_post.php:217
+msgid "Author Card Box"
+msgstr ""
+
+#: theme_options/panels/single_post.php:218
+msgid "enable or disable the author card in single post page."
+msgstr ""
+
+#: theme_options/panels/single_post.php:219
+msgid ""
+"The author card box requests author information (Users > Your profiles) for "
+"displaying."
+msgstr ""
+
+#: theme_options/panels/single_post.php:226
+msgid "Tags Bar"
+msgstr ""
+
+#: theme_options/panels/single_post.php:227
+msgid "enable or disable tag bars at the bottom of post contents."
+msgstr ""
+
+#: theme_options/panels/single_post.php:234
+msgid "LIKE/TWEET/G+ Buttons"
+msgstr ""
+
+#: theme_options/panels/single_post.php:235
+msgid ""
+"enable or disable post like/tweet/g+ buttons at the bottom of post contents."
+msgstr ""
+
+#: theme_options/panels/single_post.php:249
+msgid "Single - Comment Box Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:255
+msgid "Button to Show Comment Box"
+msgstr ""
+
+#: theme_options/panels/single_post.php:256
+msgid "enable or disable show/hide comment box buttons in single post pages."
+msgstr ""
+
+#: theme_options/panels/single_post.php:263
+msgid "Disable Website Form"
+msgstr ""
+
+#: theme_options/panels/single_post.php:264
+msgid "enable or disable website input form in comment areas."
+msgstr ""
+
+#: theme_options/panels/single_post.php:278
+msgid "Single - Content Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:284
+msgid "Single Content Padding"
+msgstr ""
+
+#: theme_options/panels/single_post.php:285
+msgid "enable or disable left/right padding for single post contents."
+msgstr ""
+
+#: theme_options/panels/single_post.php:304
+msgid "Single Layout Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:306
+msgid ""
+"Select default layout for the single post page, this option will apply to "
+"all single posts page. You can set an individual layout for each post in the "
+"post editor page."
+msgstr ""
+
+#: theme_options/panels/single_post.php:315
+msgid "Featured Image Post Layouts (Default Post Format)"
+msgstr ""
+
+#: theme_options/panels/single_post.php:321
+msgid "single - featured image layout"
+msgstr ""
+
+#: theme_options/panels/single_post.php:322
+msgid ""
+"select layout for the single post page (default post format), this option "
+"will apply to the default post format type."
+msgstr ""
+
+#: theme_options/panels/single_post.php:330
+msgid ""
+"select size for the featured image, this option will apply to all single "
+"post layouts."
+msgstr ""
+
+#: theme_options/panels/single_post.php:340
+msgid "parallax animation"
+msgstr ""
+
+#: theme_options/panels/single_post.php:341
+msgid ""
+"enable or disable parallax animation for the featured image. this option "
+"will only apply to a few featured layouts."
+msgstr ""
+
+#: theme_options/panels/single_post.php:354
+msgid "Video Post Format Layouts (Video Post Format)"
+msgstr ""
+
+#: theme_options/panels/single_post.php:360
+msgid "single - video iframe style"
+msgstr ""
+
+#: theme_options/panels/single_post.php:361
+msgid "select iframe style for all video post format"
+msgstr ""
+
+#: theme_options/panels/single_post.php:363
+msgid "Replace featured image"
+msgstr ""
+
+#: theme_options/panels/single_post.php:364
+msgid "Popup with play button"
+msgstr ""
+
+#: theme_options/panels/single_post.php:372
+msgid "single - video layout"
+msgstr ""
+
+#: theme_options/panels/single_post.php:373
+msgid ""
+"Select layout for the single post page (video post format), this option will "
+"apply to the video format type."
+msgstr ""
+
+#: theme_options/panels/single_post.php:381
+msgid "Auto Play Video"
+msgstr ""
+
+#: theme_options/panels/single_post.php:382
+msgid "auto play the featured video when opened single video post format "
+msgstr ""
+
+#: theme_options/panels/single_post.php:395
+msgid "Audio Post Format Layouts (Audio Post Format)"
+msgstr ""
+
+#: theme_options/panels/single_post.php:401
+msgid "Single - Audio Layout"
+msgstr ""
+
+#: theme_options/panels/single_post.php:402
+msgid ""
+"select layout for the single post page. this option will apply to the audio "
+"post format type."
+msgstr ""
+
+#: theme_options/panels/single_post.php:416
+msgid "Single - Gallery Layout"
+msgstr ""
+
+#: theme_options/panels/single_post.php:422
+msgid "Gallery Post Layout"
+msgstr ""
+
+#: theme_options/panels/single_post.php:423
+msgid ""
+"select layout for the single post page. this option will apply to the "
+"gallery post format type."
+msgstr ""
+
+#: theme_options/panels/single_post.php:438
+msgid "Header Align Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:444
+msgid "Single - Header Align"
+msgstr ""
+
+#: theme_options/panels/single_post.php:445
+msgid "select a style for single headers: left or center."
+msgstr ""
+
+#: theme_options/panels/single_post.php:462
+msgid "Single - Sidebar Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:468
+msgid "Single Sidebar Name"
+msgstr ""
+
+#: theme_options/panels/single_post.php:469
+msgid ""
+"select a sidebar for single post pages, this option will apply to all single "
+"posts pages. You can set an individual sidebar for each post in the post "
+"editor page."
+msgstr ""
+
+#: theme_options/panels/single_post.php:476
+msgid "Single Sidebar Position"
+msgstr ""
+
+#: theme_options/panels/single_post.php:477
+msgid ""
+"select sidebar position for single post pages, this option will override "
+"default sidebar position option and will apply to all single post pages, You "
+"can set an individual sidebar position for each post in the post editor page."
+msgstr ""
+
+#: theme_options/panels/single_post.php:498
+msgid "Share on Socials"
+msgstr ""
+
+#: theme_options/panels/single_post.php:500
+msgid "select share on socials options for single post pages."
+msgstr ""
+
+#: theme_options/panels/single_post.php:508
+msgid "Top - Share Bar Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:514
+msgid "Top -Share On Social"
+msgstr ""
+
+#: theme_options/panels/single_post.php:515
+msgid "enable or disable share on socials bars at top of single post contents."
+msgstr ""
+
+#: theme_options/panels/single_post.php:523
+#: theme_options/panels/single_post.php:625
+#: theme_options/panels/styling.php:287
+msgid "Share On Facebook"
+msgstr ""
+
+#: theme_options/panels/single_post.php:524
+#: theme_options/panels/single_post.php:626
+#: theme_options/panels/styling.php:288
+msgid "enable or disable share on Facebook."
+msgstr ""
+
+#: theme_options/panels/single_post.php:532
+#: theme_options/panels/single_post.php:634
+#: theme_options/panels/styling.php:295
+msgid "Share On Twitter"
+msgstr ""
+
+#: theme_options/panels/single_post.php:533
+#: theme_options/panels/single_post.php:635
+#: theme_options/panels/styling.php:296
+msgid "enable or disable share on Twitter."
+msgstr ""
+
+#: theme_options/panels/single_post.php:541
+#: theme_options/panels/single_post.php:643
+#: theme_options/panels/styling.php:303
+msgid "Share On Google Plus"
+msgstr ""
+
+#: theme_options/panels/single_post.php:542
+msgid "enable or disable share on Google plus."
+msgstr ""
+
+#: theme_options/panels/single_post.php:550
+#: theme_options/panels/single_post.php:652
+#: theme_options/panels/styling.php:311
+msgid "Share On Pinterest"
+msgstr ""
+
+#: theme_options/panels/single_post.php:551
+#: theme_options/panels/single_post.php:653
+#: theme_options/panels/styling.php:312
+msgid "enable or disable share on Pinterest."
+msgstr ""
+
+#: theme_options/panels/single_post.php:559
+#: theme_options/panels/single_post.php:661
+#: theme_options/panels/styling.php:319
+msgid "Share On LinkedIn"
+msgstr ""
+
+#: theme_options/panels/single_post.php:560
+#: theme_options/panels/single_post.php:662
+#: theme_options/panels/styling.php:320
+msgid "enable or disable share on LinkedIn."
+msgstr ""
+
+#: theme_options/panels/single_post.php:568
+#: theme_options/panels/single_post.php:670
+#: theme_options/panels/styling.php:327
+msgid "Share On Tumblr"
+msgstr ""
+
+#: theme_options/panels/single_post.php:569
+#: theme_options/panels/single_post.php:671
+#: theme_options/panels/styling.php:328
+msgid "enable or disable share on Tumblr."
+msgstr ""
+
+#: theme_options/panels/single_post.php:577
+#: theme_options/panels/single_post.php:679
+#: theme_options/panels/styling.php:335
+msgid "Share On Reddit"
+msgstr ""
+
+#: theme_options/panels/single_post.php:578
+#: theme_options/panels/single_post.php:680
+#: theme_options/panels/styling.php:336
+msgid "enable or disable share on Reddit."
+msgstr ""
+
+#: theme_options/panels/single_post.php:586
+#: theme_options/panels/single_post.php:688
+#: theme_options/panels/styling.php:343
+msgid "Share On Vkontakte"
+msgstr ""
+
+#: theme_options/panels/single_post.php:587
+#: theme_options/panels/single_post.php:689
+#: theme_options/panels/styling.php:344
+msgid "enable or disable share on Vkontakte."
+msgstr ""
+
+#: theme_options/panels/single_post.php:595
+#: theme_options/panels/single_post.php:697
+#: theme_options/panels/styling.php:351
+msgid "Share On Email"
+msgstr ""
+
+#: theme_options/panels/single_post.php:596
+#: theme_options/panels/single_post.php:698
+#: theme_options/panels/styling.php:352
+msgid "enable or disable share on Email."
+msgstr ""
+
+#: theme_options/panels/single_post.php:610
+msgid "Bottom - Share Bar(Big) Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:616
+msgid "Bottom - Share On Social Bar"
+msgstr ""
+
+#: theme_options/panels/single_post.php:617
+msgid ""
+"enable or disable share on socials bars at bottom of single post contents."
+msgstr ""
+
+#: theme_options/panels/single_post.php:644
+#: theme_options/panels/styling.php:304
+msgid "enable or disable share on Google Plus."
+msgstr ""
+
+#: theme_options/panels/single_post.php:717
+msgid "Single Ajax Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:719
+msgid ""
+"options below will apply to all single post pages, You can set an individual "
+"ajax option for each post in the post editor page."
+msgstr ""
+
+#: theme_options/panels/single_post.php:728
+msgid "Single - Ajax Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:734
+msgid ""
+"select an ajax type for the single post pages. Single post layout 7 (full-"
+"screen) will be changed to 4 if you enable \"Infinite Load Older Posts\"."
+msgstr ""
+
+#: theme_options/panels/single_post.php:745
+msgid "Hide Sidebar On Mobile"
+msgstr ""
+
+#: theme_options/panels/single_post.php:746
+msgid ""
+"Hide sidebars in single pages when enabling infinite load old posts on "
+"mobile devices."
+msgstr ""
+
+#: theme_options/panels/single_post.php:752
+msgid "Related Ajax Pagination"
+msgstr ""
+
+#: theme_options/panels/single_post.php:753
+msgid "select a pagination type for the related block."
+msgstr ""
+
+#: theme_options/panels/single_post.php:756
+msgid "Default - Infinite Load"
+msgstr ""
+
+#: theme_options/panels/single_post.php:757
+msgid "Load More Button"
+msgstr ""
+
+#: theme_options/panels/single_post.php:771
+msgid "Single - Ajax Views Options"
+msgstr ""
+
+#: theme_options/panels/single_post.php:777
+msgid "Ajax Views"
+msgstr ""
+
+#: theme_options/panels/single_post.php:778
+msgid ""
+"enable or disable ajax view counter, it is useful when you using a cache "
+"plugin for your website."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:6
+msgid "Single Related Options"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:8
+msgid ""
+"select options for related boxes. Newsmax supports ajax feature for related "
+"boxes, You can enable this feature in \"Single Ajax Options\" or in post "
+"editor page."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:16
+msgid "Single - Related Box Options"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:22
+msgid "Related Box"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:23
+msgid "enable or disable the related box in single post pages."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:31
+msgid "Related Title"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:32
+msgid "input a title for the related box."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:39
+msgid "Related Box Layout"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:40
+msgid "select a layout for the related box."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:48
+msgid "Related Filter"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:49
+msgid "What posts should be displayed in the related box."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:51
+#: theme_options/panels/single_post_related.php:103
+msgid "Same Tags & Categories"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:52
+#: theme_options/panels/single_post_related.php:104
+msgid "Same Tags"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:53
+#: theme_options/panels/single_post_related.php:105
+msgid "Same Categories"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:64
+msgid "select number of posts to show at once."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:77
+msgid "Video Format - Related Box Options"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:83
+msgid "Video Format - Related Box"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:84
+msgid ""
+"enable or disable the video related box (video format) for single post pages."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:92
+msgid "Video Format - Related Title"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:93
+msgid "input a title for the video related box."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:100
+msgid "Video Format - Related Filter"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:101
+msgid "What video posts should be displayed in video related box."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:113
+msgid "Video Format - Disable Standard Related Box"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:114
+msgid "disable or enable the standard related box in video post pages."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:133
+#: theme_options/panels/single_post_related.php:149
+msgid "Recommended Section"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:135
+msgid ""
+"select options for the recommended section, this section will diplay at the "
+"footer of single post pages."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:143
+msgid "Single - Recommended Section Options"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:150
+msgid ""
+"enable or disable the recommended section at the footer or single post pages."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:158
+msgid "Recommended Section - Title"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:159
+msgid "input a title for the recommended section."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:165
+msgid "Section Layout"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:166
+msgid "select a layout for the recommended section."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:174
+msgid "Filter categories you want to show in this section."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:176
+msgid "Same Post Categories"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:177
+msgid "All Categories"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:185
+msgid "Filter tags you want to show in this section."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:187
+msgid "Same Post Tags"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:188
+msgid "All Tags"
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:196
+msgid "select a sort type for this section."
+msgstr ""
+
+#: theme_options/panels/single_post_related.php:202
+msgid "Number of posts"
+msgstr ""
+
+#: theme_options/panels/social.php:8
+msgid "Social Profiles"
+msgstr ""
+
+#: theme_options/panels/social.php:10
+msgid ""
+"options below for setting up the sites socials. To add users/authors "
+"socials, go to the Users -> your site profile."
+msgstr ""
+
+#: theme_options/panels/social.php:19
+msgid "Social Profiles Options"
+msgstr ""
+
+#: theme_options/panels/social.php:25
+msgid "Facebook URL"
+msgstr ""
+
+#: theme_options/panels/social.php:26 theme_options/panels/social.php:33
+#: theme_options/panels/social.php:40 theme_options/panels/social.php:47
+#: theme_options/panels/social.php:54 theme_options/panels/social.php:61
+#: theme_options/panels/social.php:67 theme_options/panels/social.php:73
+#: theme_options/panels/social.php:79 theme_options/panels/social.php:85
+#: theme_options/panels/social.php:91 theme_options/panels/social.php:97
+#: theme_options/panels/social.php:103 theme_options/panels/social.php:109
+#: theme_options/panels/social.php:115 theme_options/panels/social.php:121
+#: theme_options/panels/social.php:127 theme_options/panels/social.php:133
+#: theme_options/panels/social.php:139 theme_options/panels/social.php:145
+#: theme_options/panels/social.php:151
+msgid "input your site profile URL, Leave blank if you want to disable it."
+msgstr ""
+
+#: theme_options/panels/social.php:32
+msgid "Twitter URL"
+msgstr ""
+
+#: theme_options/panels/social.php:39
+msgid "Google Plus URL"
+msgstr ""
+
+#: theme_options/panels/social.php:46
+msgid "Instagram URL"
+msgstr ""
+
+#: theme_options/panels/social.php:53
+msgid "Pinterest URL"
+msgstr ""
+
+#: theme_options/panels/social.php:60
+msgid "LinkedIn URL"
+msgstr ""
+
+#: theme_options/panels/social.php:66
+msgid "Tumblr URL "
+msgstr ""
+
+#: theme_options/panels/social.php:72
+msgid "Flickr URL"
+msgstr ""
+
+#: theme_options/panels/social.php:78
+msgid "Skype URL"
+msgstr ""
+
+#: theme_options/panels/social.php:84
+msgid "Snapchat URL"
+msgstr ""
+
+#: theme_options/panels/social.php:90
+msgid "Myspace URL"
+msgstr ""
+
+#: theme_options/panels/social.php:96
+msgid "Youtube URL "
+msgstr ""
+
+#: theme_options/panels/social.php:102
+msgid "Bloglovin URL"
+msgstr ""
+
+#: theme_options/panels/social.php:108
+msgid "Digg URL"
+msgstr ""
+
+#: theme_options/panels/social.php:114
+msgid "Dribbble URL"
+msgstr ""
+
+#: theme_options/panels/social.php:120
+msgid "Soundcloud URL"
+msgstr ""
+
+#: theme_options/panels/social.php:126
+msgid "Vimeo URL "
+msgstr ""
+
+#: theme_options/panels/social.php:132
+msgid "Reddit URL "
+msgstr ""
+
+#: theme_options/panels/social.php:138
+msgid "VKontakte URL "
+msgstr ""
+
+#: theme_options/panels/social.php:144
+msgid "Whatsapp URL "
+msgstr ""
+
+#: theme_options/panels/social.php:150
+msgid "Rss URL "
+msgstr ""
+
+#: theme_options/panels/social.php:166
+msgid "Custom Social Profiles Options"
+msgstr ""
+
+#: theme_options/panels/social.php:174
+msgid "Custom social 1 - URL"
+msgstr ""
+
+#: theme_options/panels/social.php:175 theme_options/panels/social.php:204
+#: theme_options/panels/social.php:233
+msgid "input your site profile URL."
+msgstr ""
+
+#: theme_options/panels/social.php:180
+msgid "Custom Social 1 - Name"
+msgstr ""
+
+#: theme_options/panels/social.php:181 theme_options/panels/social.php:210
+#: theme_options/panels/social.php:239
+msgid "input the name of the social, for example: facebook, twitter."
+msgstr ""
+
+#: theme_options/panels/social.php:186
+msgid "Custom Social 1 - Icon"
+msgstr ""
+
+#: theme_options/panels/social.php:187 theme_options/panels/social.php:216
+#: theme_options/panels/social.php:245
+msgid ""
+"input the name of font icon, for example: fa-facebook. Newsmax supports font "
+"awesome icons, you can find all icons here: http://fontawesome.io/icons/"
+msgstr ""
+
+#: theme_options/panels/social.php:195
+msgid "Custom Social 1 - Color"
+msgstr ""
+
+#: theme_options/panels/social.php:196 theme_options/panels/social.php:225
+#: theme_options/panels/social.php:254
+msgid "select a color for this social icon."
+msgstr ""
+
+#: theme_options/panels/social.php:203
+msgid "Custom social 2 - URL"
+msgstr ""
+
+#: theme_options/panels/social.php:209
+msgid "Custom Social 2 - Name"
+msgstr ""
+
+#: theme_options/panels/social.php:215
+msgid "Custom Social 2 - Icon"
+msgstr ""
+
+#: theme_options/panels/social.php:224
+msgid "Custom Social 2 - Color"
+msgstr ""
+
+#: theme_options/panels/social.php:232
+msgid "Custom social 3 - URL"
+msgstr ""
+
+#: theme_options/panels/social.php:238
+msgid "Custom Social 3 - Name"
+msgstr ""
+
+#: theme_options/panels/social.php:244
+msgid "Custom Social 3 - Icon"
+msgstr ""
+
+#: theme_options/panels/social.php:253
+msgid "Custom Social 3 - Color"
+msgstr ""
+
+#: theme_options/panels/styling.php:7
+msgid "Elements Styling"
+msgstr ""
+
+#: theme_options/panels/styling.php:8
+msgid ""
+"select styles for blog post elements, options below will apply to all "
+"blocks, pages, and modules on your website."
+msgstr ""
+
+#: theme_options/panels/styling.php:16
+msgid "Block/Button Style Options"
+msgstr ""
+
+#: theme_options/panels/styling.php:22
+msgid "BLock/Widget Header Style"
+msgstr ""
+
+#: theme_options/panels/styling.php:23
+msgid ""
+"select a style for block/widget header, this option will apply to all header "
+"of blocks and widgets."
+msgstr ""
+
+#: theme_options/panels/styling.php:36
+msgid "Category Info Style"
+msgstr ""
+
+#: theme_options/panels/styling.php:37
+msgid ""
+"select a style for the category info, this option will apply to whole your "
+"website."
+msgstr ""
+
+#: theme_options/panels/styling.php:39
+msgid "-- Style 1--"
+msgstr ""
+
+#: theme_options/panels/styling.php:51
+msgid "Social/Review/Button Style"
+msgstr ""
+
+#: theme_options/panels/styling.php:52
+msgid "select a style for your website buttons."
+msgstr ""
+
+#: theme_options/panels/styling.php:54
+msgid "Curve - Default"
+msgstr ""
+
+#: theme_options/panels/styling.php:55
+msgid "Circle"
+msgstr ""
+
+#: theme_options/panels/styling.php:56
+msgid "Square"
+msgstr ""
+
+#: theme_options/panels/styling.php:72
+msgid "Entry Meta Info Options"
+msgstr ""
+
+#: theme_options/panels/styling.php:78
+msgid "Left - Entry Meta Info"
+msgstr ""
+
+#: theme_options/panels/styling.php:79
+msgid "organize how you want the entry meta info to appear on blog posts."
+msgstr ""
+
+#: theme_options/panels/styling.php:97
+msgid "Right - Entry Meta Info"
+msgstr ""
+
+#: theme_options/panels/styling.php:98
+msgid "Select a element for displaying at the right of meta info bars."
+msgstr ""
+
+#: theme_options/panels/styling.php:101
+msgid "Total Views"
+msgstr ""
+
+#: theme_options/panels/styling.php:102
+msgid "Total Comments"
+msgstr ""
+
+#: theme_options/panels/styling.php:103
+msgid "Total Shares"
+msgstr ""
+
+#: theme_options/panels/styling.php:109
+msgid "Meta Info Icon"
+msgstr ""
+
+#: theme_options/panels/styling.php:110
+msgid "enable or disable meta info icons."
+msgstr ""
+
+#: theme_options/panels/styling.php:116
+msgid "Author Avatar Image"
+msgstr ""
+
+#: theme_options/panels/styling.php:117
+msgid "enable or disable author avatar images in meta info bars."
+msgstr ""
+
+#: theme_options/panels/styling.php:123
+msgid "Human Time (Ago)"
+msgstr ""
+
+#: theme_options/panels/styling.php:124
+msgid ""
+"enable or disable the human time (\"ago\" time), This plugin is not "
+"compatible with cache plugins."
+msgstr ""
+
+#: theme_options/panels/styling.php:139
+msgid "Featured Thumbnail Options"
+msgstr ""
+
+#: theme_options/panels/styling.php:145
+msgid "Overlay Strength"
+msgstr ""
+
+#: theme_options/panels/styling.php:146
+msgid "select a overlay strength for thumbnails on your website."
+msgstr ""
+
+#: theme_options/panels/styling.php:148
+msgid "Medium - Default"
+msgstr ""
+
+#: theme_options/panels/styling.php:157
+msgid "Classic Thumbnail Size"
+msgstr ""
+
+#: theme_options/panels/styling.php:158
+msgid ""
+"select a thumbnail size for classic layouts, this options will apply to all "
+"classic and classic-1 layouts."
+msgstr ""
+
+#: theme_options/panels/styling.php:168
+msgid "GIF Support"
+msgstr ""
+
+#: theme_options/panels/styling.php:169
+msgid "Enable or disable GIF image support."
+msgstr ""
+
+#: theme_options/panels/styling.php:183
+msgid "Format Icon Options"
+msgstr ""
+
+#: theme_options/panels/styling.php:189
+msgid "Video Format Icon"
+msgstr ""
+
+#: theme_options/panels/styling.php:190
+msgid "enable or disable video format icons on blog posts."
+msgstr ""
+
+#: theme_options/panels/styling.php:197
+msgid "Audio Format Icon"
+msgstr ""
+
+#: theme_options/panels/styling.php:198
+msgid "enable or disable audio format icons on blog posts."
+msgstr ""
+
+#: theme_options/panels/styling.php:205
+msgid "Gallery Format Icon"
+msgstr ""
+
+#: theme_options/panels/styling.php:206
+msgid "enable or disable gallery format icons on blog posts."
+msgstr ""
+
+#: theme_options/panels/styling.php:221
+msgid "Post - Excerpt Options"
+msgstr ""
+
+#: theme_options/panels/styling.php:227
+msgid "Hide Excerpt On Mobile"
+msgstr ""
+
+#: theme_options/panels/styling.php:228
+msgid ""
+"show or hide the excerpt of blog posts on mobile devices (screen width < "
+"768px)."
+msgstr ""
+
+#: theme_options/panels/styling.php:243
+msgid "Button Options"
+msgstr ""
+
+#: theme_options/panels/styling.php:250
+msgid ""
+"Enable or disable read more button. This option will be apply to grid, list "
+"and classic layouts."
+msgstr ""
+
+#: theme_options/panels/styling.php:257
+msgid "Read More Text"
+msgstr ""
+
+#: theme_options/panels/styling.php:258
+msgid "input your read more text."
+msgstr ""
+
+#: theme_options/panels/styling.php:260
+msgid "read more"
+msgstr ""
+
+#: theme_options/panels/styling.php:265
+msgid "Review Score Icon"
+msgstr ""
+
+#: theme_options/panels/styling.php:266
+msgid ""
+"enable or disable total score icons on featured images, post format and "
+"video duration icons can be removed if this visible."
+msgstr ""
+
+#: theme_options/panels/styling.php:281
+msgid "Share on Socials Options"
+msgstr ""
+
+#: theme_options/panels/team.php:10
+msgid "Team Page Options"
+msgstr ""
+
+#: theme_options/panels/team.php:11
+msgid ""
+"select options for team page template (author-team.php), options below will "
+"apply to pages has been set \"Team Page\" template."
+msgstr ""
+
+#: theme_options/panels/team.php:19
+msgid "Team Page Template Options"
+msgstr ""
+
+#: theme_options/panels/team.php:24
+msgid "Display Authors"
+msgstr ""
+
+#: theme_options/panels/team.php:25
+msgid ""
+"Select and sort order authors you want to display. Please blank you would "
+"like to display all, this option will override below options."
+msgstr ""
+
+#: theme_options/panels/team.php:35
+msgid "Excepted Author IDs"
+msgstr ""
+
+#: theme_options/panels/team.php:36
+msgid ""
+"input author IDs that you do not want to display on the author page. "
+"Separated by commas, for example: 1,2,3"
+msgstr ""
+
+#: theme_options/panels/team.php:40
+msgid "Administrator Users"
+msgstr ""
+
+#: theme_options/panels/team.php:41
+msgid "enable or disable administrator role users."
+msgstr ""
+
+#: theme_options/panels/team.php:47
+msgid "Editor Users"
+msgstr ""
+
+#: theme_options/panels/team.php:48
+msgid "enable or disable editor role users."
+msgstr ""
+
+#: theme_options/panels/team.php:54
+msgid "Author Users"
+msgstr ""
+
+#: theme_options/panels/team.php:55
+msgid "enable or disable author role users."
+msgstr ""
+
+#: theme_options/panels/team.php:61
+msgid "Contributor Users"
+msgstr ""
+
+#: theme_options/panels/team.php:62
+msgid "enable or disable contributor role users."
+msgstr ""
+
+#: theme_options/panels/translation.php:10
+msgid "Fast Translation"
+msgstr ""
+
+#: theme_options/panels/translation.php:11
+msgid ""
+"The theme supports fast translation in Front-end, input the text you would "
+"like to translate. Below options will override PO file. Leave blank options "
+"if you use the PO file."
+msgstr ""
+
+#: theme_options/panels/translation.php:20
+msgid "Fast Translation Social"
+msgstr ""
+
+#: theme_options/panels/translation.php:112
+msgid "Fast Translation Counter"
+msgstr ""
+
+#: theme_options/panels/translation.php:138
+msgid "Fast Translation Meta Info"
+msgstr ""
+
+#: theme_options/panels/translation.php:237
+msgid "Fast Translation Single"
+msgstr ""
+
+#: theme_options/panels/translation.php:352
+msgid "Fast Translation Search"
+msgstr ""
+
+#: theme_options/panels/translation.php:401
+msgid "Fast Translation Misc"
+msgstr ""
+
+#: theme_options/panels/typo.php:7
+msgid "Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_body.php:6
+msgid "Body Typography"
+msgstr ""
+
+#: theme_options/panels/typo_body.php:9
+msgid ""
+"select font values for site body. These options will apply to your pages, "
+"posts content."
+msgstr ""
+
+#: theme_options/panels/typo_body.php:16
+msgid "Body Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_body.php:22
+msgid "Body Font"
+msgstr ""
+
+#: theme_options/panels/typo_body.php:23
+msgid ""
+"these options will apply to almost content (body and excerpt, p tags) on "
+"your website."
+msgstr ""
+
+#: theme_options/panels/typo_body.php:24
+msgid ""
+"Default [ font-size: 15px | line-height: 25px | font-weight: 400 | color: "
+"#282828 ]"
+msgstr ""
+
+#: theme_options/panels/typo_body.php:47
+msgid "Body Font - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_body.php:48
+msgid ""
+"select font values for body on mobile devices (screen max-width < 768px). "
+"Make sure that you have setup line-height value if you have setup font-size "
+"( usually, line-height = 1.5*font-size)."
+msgstr ""
+
+#: theme_options/panels/typo_body.php:78
+msgid "Post Excerpt Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_body.php:84
+msgid "Post Excerpt Font"
+msgstr ""
+
+#: theme_options/panels/typo_body.php:85
+msgid ""
+"select font values for post excerpts. Leave blank if you want to set as the "
+"defaults."
+msgstr ""
+
+#: theme_options/panels/typo_body.php:86
+msgid ""
+"Default [ font-size: 14px | line-height: 20px | font-weight: 400 | color: "
+"#777 ]"
+msgstr ""
+
+#: theme_options/panels/typo_body.php:109
+msgid "Post Excerpt Font - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_body.php:110
+msgid ""
+"select font values for post excerpts on mobile devices (screen max-width < "
+"768px). Make sure that you have setup line-height value if you have setup "
+"font-size ( usually, line-height = 1.5*font-size)."
+msgstr ""
+
+#: theme_options/panels/typo_header.php:6
+msgid "Navigation Typography"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:7
+msgid "select font values for navigation of your website."
+msgstr ""
+
+#: theme_options/panels/typo_header.php:16
+msgid "Navigation Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:22
+msgid "Main Navigation Font"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:23
+msgid "select font values for the main navigation."
+msgstr ""
+
+#: theme_options/panels/typo_header.php:24
+msgid "Default [ font-size: 14px | font-weight: 500 ]"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:46
+msgid "Main Navigation Submenu Font"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:47
+msgid "select font values for submenu of the main navigation."
+msgstr ""
+
+#: theme_options/panels/typo_header.php:48
+msgid "Default [ font-size: 13px | font-weight: 400 ]"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:78
+msgid "Top Bar Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:84
+msgid "Top Bar Font"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:85
+msgid "select font values for the top bar."
+msgstr ""
+
+#: theme_options/panels/typo_header.php:86
+msgid "Default [ font-size: 12px | font-weight: 300 ]"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:117
+msgid "Off-Canvas Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:123
+msgid "Off-Canvas Navigation Font"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:124
+msgid ""
+"select font values for the off-canvas navigation, This is navigation display "
+"on mobile devices."
+msgstr ""
+
+#: theme_options/panels/typo_header.php:125
+msgid "Default [ font-size: 12px | font-weight: 500 ]"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:148
+msgid "Off-Canvas Navigation Submenu Font"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:149
+msgid "Select font values for the off-canvas submenu."
+msgstr ""
+
+#: theme_options/panels/typo_header.php:150
+msgid "Default [ font-size: 11px | font-weight: 500 ]"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:190
+msgid "Logo Typography"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:191
+msgid ""
+"select font values for text logo of your website. These options will only "
+"apply to text logo"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:201
+msgid "Text Logo Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:207
+msgid "Logo Text Font"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:208
+msgid "select font values for the logo text if you use a logo text."
+msgstr ""
+
+#: theme_options/panels/typo_header.php:209
+msgid "Default [ font-size: 40px | color: #282828 | letter-spacing: -1px ]"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:233
+msgid "Logo Tagline Font"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:234
+msgid "select font values for logo tagline."
+msgstr ""
+
+#: theme_options/panels/typo_header.php:235
+msgid ""
+"Default [ font-size: 15px | line-height: 24px | font-weight: 400 | color: "
+"#aaa ]"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:256
+msgid "Mobile - Text Logo Font"
+msgstr ""
+
+#: theme_options/panels/typo_header.php:257
+msgid ""
+"select font values for the mobile text logo if you use a mobile text logo."
+msgstr ""
+
+#: theme_options/panels/typo_header.php:258
+msgid "Default [ font-size: 28px | letter-spacing: -1px ]"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:6
+msgid "Block/Widget Header"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:9
+msgid "select typography options for block headers and widgets"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:15
+msgid "Block Header Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:21
+msgid "Block Header Font"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:22
+msgid ""
+"select font values for block headers. These options will apply to all blocks "
+"build with \"Ruby Composer\"."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:23
+msgid "Default [ font-size: 18px]"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:48
+msgid "Ajax Filter Font Size"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:49
+msgid ""
+"select a font size value (in px) for ajax filter links, leave blank if you "
+"want to set default (12px)."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:63
+msgid "Widget Header Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:69
+msgid "Widget Header Font"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:70
+msgid ""
+"select font values for widget headers. These options will apply to all "
+"widgets."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:71
+msgid "Default [ font-size: 16px]"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:111
+msgid "H1 to H6 Typography"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:114
+msgid "Select font values for H1 to H6 tags."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:121
+msgid "H1 Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:127
+msgid "H1 Font"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:128
+msgid "select font value for H1 tag."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:129
+msgid ""
+"Default [ font-size: 36px | line-height: 38px | letter-spacing: -0.9px | "
+"color: #ff4545 ]"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:154
+msgid "H1 Font - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:155
+msgid ""
+"select font values for H1 tag on mobile devices (screen max-width < 768px)."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:185
+msgid "H2 Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:191
+msgid "H2 Font"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:192
+msgid "select font value for H2 tag."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:193
+msgid ""
+"Default [ font-size: 28px | line-height: 30px | letter-spacing: -0.6px ]"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:218
+msgid "H2 Font - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:219
+msgid ""
+"select font values for H2 tag on mobile devices (screen max-width < 768px)."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:249
+msgid "H3 Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:255
+msgid "H3 Font"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:256
+msgid "select font value for H3 tag."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:257
+msgid ""
+"Default [ font-size: 18px | line-height: 22px | letter-spacing: -0.4px ]"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:282
+msgid "H3 Font - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:283
+msgid "select font values for H3 on mobile devices (screen max-width < 768px)."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:313
+msgid "H4 Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:319
+msgid "H4 Font"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:320
+msgid "select font value for H4 tag."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:321
+#: theme_options/panels/typo_heading.php:385
+msgid "Default [ font-size: 16px | line-height: 20px | font-weight: 700 ]"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:346
+msgid "H4 Font - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:347
+msgid "select font values for H4 on mobile devices (screen max-width < 768px)."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:377
+msgid "H5 Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:383
+msgid "H5 Font"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:384
+msgid "select font value for H5 tag."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:410
+msgid "H5 Font - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:411
+msgid "select font values for H5 on mobile devices (screen max-width < 768px)."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:441
+msgid "H6 Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:447
+msgid "H6 Font"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:448
+msgid "select font value for H6 tag."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:449
+msgid "Default [ font-size: 14px | line-height: 19px | font-weight: 700 ]"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:474
+msgid "H6 Font - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:475
+msgid "select font values for H6 on mobile devices (screen max-width < 768px)."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:505
+msgid "H tags Padding Options"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:511
+msgid "H tags - Top Padding"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:512
+msgid "input the top padding value (in px) for H tags. Default is 0."
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:519
+msgid "H tags - Bottom Padding"
+msgstr ""
+
+#: theme_options/panels/typo_heading.php:520
+msgid "input the bottom padding value (in px) for H tags. Default is 0."
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:6
+msgid "Meta Info Typography"
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:9
+msgid "select font values for entry meta info in your website."
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:15
+msgid "Category Info Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:21
+msgid "Category Info Font"
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:22
+msgid "select font values for the category info."
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:23
+msgid "Default [ font-size: 10px | font-weight: 700 ]"
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:55
+msgid "Entry Meta Info Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:61
+msgid "Entry Meta Info Font"
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:62
+msgid "select font values for entry meta info: date, author, view, comment..."
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:63
+msgid "Default [ font-size: 12px | font-weight: 400 | color: #aaa ]"
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:93
+msgid "Read More Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:99
+msgid "Read More Font"
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:100
+msgid "select font values for read more button"
+msgstr ""
+
+#: theme_options/panels/typo_meta.php:101
+msgid "Default [ font-size: 11px | font-weight: 400 ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:6
+msgid "Post Title Typography"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:9
+msgid ""
+"Select font values for post titles for your website. The theme defines font "
+"values by size: extra big, big, medium, default, small and mini. You can "
+"setup your font to fit with all devices by responsive options. Leave blank "
+"if you want to set as defaults and make sure you input line-height when "
+"setup font-size. Refer default values at the end of options"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:15
+msgid "Extra Big - Title Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:21
+msgid "Extra Big Title Font"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:22
+msgid ""
+"select font values for extra big titles. These options will apply to full-"
+"screen title ie: single title, full-screen sliders and full-screen carousels "
+"layouts... [ CSS classname: .is-size-0 ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:23
+msgid ""
+"Default [ font-size: 40px | line-height: 42px | letter-spacing: -1.6px | "
+"color: #282828 ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:45
+msgid "Extra Big - Notebook Responsive (1024px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:46
+msgid ""
+"select font values for extra titles on notebook devices (screen max-width < "
+"1200px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:47 theme_options/panels/typo_post.php:156
+msgid ""
+"Default [ font-size: 32px | line-height: 36px | letter-spacing: -1.28px ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:69
+msgid "Extra Big - Tablet Responsive (768px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:70
+msgid ""
+"select font values for extra big titles on tablet devices (screen max-width "
+"< 992px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:71 theme_options/panels/typo_post.php:180
+msgid ""
+"Default [ font-size: 28px | line-height: 32px | letter-spacing: -0.84px ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:93
+msgid "Extra Big - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:94
+msgid ""
+"select font values for extra big titles on mobile devices (screen max-width "
+"< 768px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:95 theme_options/panels/typo_post.php:204
+msgid ""
+"Default [ font-size: 20px | line-height: 23px | letter-spacing: -0.3px ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:124
+msgid "Big - Title Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:130
+msgid "Big Title Font"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:131
+msgid ""
+"select font values for big titles. These options will apply to full-width "
+"title ie: single title, fullwidth sliders and carousels layouts... [ CSS "
+"classname: .is-size-1 ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:132
+msgid ""
+"Default [ font-size: 36px | line-height: 40px | letter-spacing: -1.4px | "
+"color: #282828 ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:154
+msgid "Big - Notebook Responsive (1024px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:155
+msgid ""
+"select font values for big titles on notebook devices (screen max-width < "
+"1200px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:178
+msgid "Big - Tablet Responsive (768px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:179
+msgid ""
+"select font values for big titles on tablet devices (screen max-width < "
+"992px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:202
+msgid "Big - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:203
+msgid ""
+"select font values for big titles on mobile devices (screen max-width < "
+"768px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:233
+msgid "Medium - Title Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:239
+msgid "Medium Title Font"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:240
+msgid ""
+"select font values for medium titles. These options will apply to: the "
+"classic, small sliders, big grid and list layouts... [ CSS classname: .is-"
+"size-2 ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:241
+msgid ""
+"Default [ font-size: 22px | line-height: 26px | letter-spacing: -0.88px | "
+"color: #282828 ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:263
+msgid "Medium - Notebook Responsive (1024px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:264
+msgid ""
+"select font values for medium titles on notebook devices (screen max-width < "
+"1200px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:265
+#: theme_options/panels/typo_post.php:374
+msgid ""
+"Default [ font-size: 18px | line-height: 23px | letter-spacing: -0.72px ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:287
+msgid "Medium - Tablet Responsive (768px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:288
+msgid ""
+"select font values for medium titles on tablet devices (screen max-width < "
+"992px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:289
+msgid ""
+"Default [ font-size: 16px | line-height: 21px | letter-spacing: -0.4px ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:311
+msgid "Medium - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:312
+msgid ""
+"select font values for medium titles on mobile devices (screen max-width < "
+"768px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:313
+msgid ""
+"Default [ font-size: 15px | line-height: 20px | letter-spacing: -0.3px ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:342
+msgid "Small - Title Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:348
+msgid "Small Title Font"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:349
+msgid ""
+"select font values for small titles. These options will apply to: default "
+"list, grid layouts... [ CSS classname: .is-size-3 ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:350
+msgid ""
+"Default [ font-size: 18px | line-height: 23px | letter-spacing: -0.72px | "
+"color: #282828 ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:372
+msgid "Small - Notebook Responsive (1024px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:373
+msgid ""
+"select font values for small titles on notebook devices (screen max-width < "
+"1200px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:396
+msgid "Small - Tablet Responsive (768px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:397
+msgid ""
+"select font values for small titles on tablet devices (screen max-width < "
+"992px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:398
+#: theme_options/panels/typo_post.php:422
+msgid ""
+"Default [ font-size: 14px | line-height: 19px | letter-spacing: -0.19px ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:420
+msgid "Small - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:421
+msgid ""
+"select font values for small titles on mobile devices (screen max-width < "
+"768px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:451
+msgid "Mini - Title Typography Options"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:457
+msgid "Mini Title Font"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:458
+msgid ""
+"select font values for mini titles. These options will apply to: mini list, "
+"grid layouts... [ CSS classname: .is-size-4 ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:459
+msgid ""
+"Default [ font-size: 12px | line-height: 16px | letter-spacing: -0.36px | "
+"color: #282828 ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:481
+msgid "Mini - Notebook Responsive (1024px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:482
+msgid ""
+"select font values for mini titles on notebook devices (screen max-width < "
+"1200px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:483
+#: theme_options/panels/typo_post.php:507
+#: theme_options/panels/typo_post.php:531
+msgid ""
+"Default [ font-size: 12px | line-height: 16px | letter-spacing: -0.36px ]"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:505
+msgid "Mini - Tablet Responsive (768px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:506
+msgid ""
+"select font values for mini titles on tablet devices (screen max-width < "
+"992px )."
+msgstr ""
+
+#: theme_options/panels/typo_post.php:529
+msgid "Mini - Mobile Responsive (480px)"
+msgstr ""
+
+#: theme_options/panels/typo_post.php:530
+msgid ""
+"select font values for mini titles on mobile devices (screen max-width < "
+"768px )."
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:7
+msgid "Woocommerce"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:8
+msgid "Select options for the shop page."
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:15
+msgid "Woocommerce Color Options"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:21
+msgid ""
+"Select global color, Please leave blank if you want to set as default "
+"(#ff4545)"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:28
+msgid "Price Color"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:29
+msgid ""
+"Select price color, Please leave blank if you want to set as default "
+"(#68ce92)"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:45
+msgid "Woocommerce Shop Options"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:51
+msgid "Shop Page Title"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:52
+msgid "enable or disable the title of shop page"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:61
+msgid "Number of products"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:62
+msgid ""
+"select number of products per page, leave blank if you want to set as "
+"default."
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:69
+msgid "Shop Sidebar Name"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:70
+msgid ""
+"select sidebar for Woocommerce pages, this option will apply to all woo "
+"pages, except the product page."
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:77
+msgid "Shop Sidebar Position"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:78
+msgid ""
+"Select sidebar position for this page. This option will override default "
+"sidebar position setting."
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:93
+msgid "Woocommerce product options"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:99
+msgid "Product Sidebar"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:100
+msgid "select sidebar name for the single product page."
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:107
+msgid "Product Sidebar Position"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:108
+msgid "select sidebar position for the single product page."
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:115
+msgid "Show Review Box"
+msgstr ""
+
+#: theme_options/panels/woocommerce.php:116
+msgid "enable or disable the review box in the single product page."
+msgstr ""
+
+#: theme_options/redux_config.php:48 theme_options/redux_config.php:49
+msgid "Newsmax"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:50
+msgid " of "
+msgstr ""
+
+#: woocommerce/single-product/related.php:28
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:28
+msgid "You may also like&hellip;"
+msgstr ""

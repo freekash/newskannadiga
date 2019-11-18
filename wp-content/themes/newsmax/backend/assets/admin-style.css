@@ -1,0 +1,220 @@
+.rwmb-label label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.rwmb-field {
+    display: block;
+    margin: 0 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.rwmb-field:last-of-type {
+    border-bottom: none;
+}
+
+.rwmb-field .description {
+    display: block;
+    float: none;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 100%;
+    text-transform: none;
+    font-size: 12px;
+}
+
+.ruby-sidebar-select .rwmb-image-select {
+    display: inline-block;
+    width: 45px;
+    height: auto;
+}
+
+.rwmb-clone-icon {
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+.rwmb-field fieldset {
+    margin-left: 10px;
+}
+
+.rwmb-clone label {
+    margin-right: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.rwmb-button.add-clone {
+    margin-top: 10px;
+}
+
+.rwmb-checkbox-wrapper .description {
+    display: block !important;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 100%;
+    font-style: italic !important;
+}
+
+.rwmb-input .rwmb-slider {
+    width: 80%;
+}
+
+.rwmb-input input[type="text"], .rwmb-input textarea {
+    width: 80%;
+}
+
+.field-ruby-mega {
+    display: block;
+    float: none !important;
+    overflow: hidden;
+    padding-top: 10px !important;
+}
+
+#menu-management .ruby-description {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.ruby-meta-menu-label {
+    display: inline-block;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.rwmb-image-select img {
+    display: block;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.rwmb-image-item {
+    display: block;
+    overflow: hidden;
+    width: 65px !important;
+    height: auto;
+}
+
+.rwmb-image-item .rwmb-media-preview {
+    display: block;
+    width: 100% !important;
+}
+
+.rwmb-field .rwmb-input .select2-selection--single {
+    position: relative;
+    padding: 2px;
+    height: auto;
+    border-radius: 0;
+    text-transform: capitalize;
+    line-height: 28px;
+}
+
+.redux-message {
+    display: none !important;
+}
+
+[id*="newsmax_ruby_metabox_"] h2 {
+    background-color: #363A42;
+    color: #fff;
+    font-weight: 400;
+}
+
+#newsmax_ruby_metabox_section_single_post_subtitle.postbox {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+#newsmax_ruby_metabox_section_single_post_subtitle h2 {
+    display: none;
+}
+
+#newsmax_ruby_metabox_section_single_post_subtitle input {
+    font-size: 1.3em;
+}
+
+#newsmax_ruby_metabox_section_single_post_subtitle label {
+    text-transform: uppercase;
+}
+
+#newsmax_ruby_metabox_section_single_post_subtitle.postbox .inside {
+    padding-bottom: 0 !important;
+}
+
+#newsmax_ruby_metabox_video_options,
+#newsmax_ruby_metabox_gallery_options,
+#newsmax_ruby_metabox_audio_options {
+    display: none;
+    margin-top: 15px;
+}
+
+.input-medium input[type="text"], .input-medium textarea {
+    max-width: 500px;
+}
+
+[id$="newsmax_ruby_sidebar_widget_advertising-__i__"] .widget-top .widget-title h3,
+[id$="newsmax_ruby_sb_widget_banner-__i__"] .widget-top .widget-title h3,
+[id$="newsmax_ruby_sb_widget_banner_single-__i__"] .widget-top .widget-title h3,
+[id$="newsmax_ruby_sb_widget_post-__i__"] .widget-top .widget-title h3,
+[id$="newsmax_ruby_sb_widget_facebook-__i__"] .widget-top .widget-title h3,
+[id$="newsmax_ruby_sb_widget_flickr-__i__"] .widget-top .widget-title h3,
+[id$="newsmax_ruby_sb_widget_instagram-__i__"] .widget-top .widget-title h3,
+[id$="newsmax_ruby_sb_widget_social_counter-__i__"] .widget-top .widget-title h3,
+[id$="newsmax_ruby_sb_widget_social_icon-__i__"] .widget-top .widget-title h3,
+[id$="newsmax_ruby_sb_widget_subscribe-__i__"] .widget-top .widget-title h3,
+[id$="newsmax_ruby_sb_widget_tweet-__i__"] .widget-top .widget-title h3,
+[id$="newsmax_ruby_sb_widget_youtube-__i__"] .widget-top .widget-title h3 {
+    background-color: #363A42;
+    color: #fff;
+}
+
+[id$="newsmax_ruby_fw_widget_instagram-__i__"] .widget-top .widget-title h3 {
+    background-color: #647596;
+    color: #fff;
+}
+
+[id$="_newsmax_ruby_navbar_widget_button-__i__"] .widget-top .widget-title h3 {
+    background-color: #bda96f;
+    color: #fff;
+}
+
+.mce-ruby_tinymce_dropdown_label {
+    background-color: #363A42 !important;
+
+}
+
+.mce-ruby_tinymce_dropdown_label .mce-text {
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.notice a[href$='./plugins.php?ReduxFrameworkPlugin=demo'] {
+    display: none !important;
+}
+
+.menu-item-settings {
+    overflow: hidden;
+}
+
+.rwmb-meta-box .rwmb-label {
+    width: 20%;
+}
+
+#newsmax_ruby_metabox_composer_options {
+    display: none;
+}
+
+.is-hide {
+    display: none;
+}
+
+#newsmax_ruby_meta_post_primary_cat option:first-child {
+    display: block !important;
+}

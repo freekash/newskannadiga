@@ -1,0 +1,731 @@
+.ruby-composer-editor {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 20px 45px 20px;
+    min-width: 255px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+
+.ruby-composer-title {
+    margin: 0 -20px 40px -20px;
+    padding: 10px 30px;
+    background-color: #9a9dcc;
+    line-height: 1.4;
+}
+
+.ruby-composer-title h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.ruby-composer-title h3:before {
+    display: inline-block;
+    margin-right: 5px;
+    font-family: dashicons;
+    content: "\f478";
+    font-size: 18px;
+    vertical-align: top;
+}
+
+#newsmax_ruby_composer_editor a {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+#newsmax_ruby_composer_editor textarea, #newsmax_ruby_composer_editor input {
+    max-width: 100%;
+    text-transform: none;
+}
+
+.ruby-highlight {
+    border: 1px dashed #999;
+}
+
+.ruby-sections-wrap {
+    position: relative;
+    display: block;
+}
+
+#commentsdiv {
+    display: none;
+}
+
+.ruby-section-loading {
+    display: none;
+}
+
+.ruby-toolbox {
+    position: relative;
+    display: block;
+    visibility: visible;
+    overflow: hidden;
+    margin-bottom: 30px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+
+.section-menu-wrap {
+    position: relative;
+}
+
+.add-section-select, .add-block-select {
+    position: relative;
+    display: block;
+    padding: 20px;
+    color: #282828 !important;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 17px;
+    -webkit-transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -ms-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.add-section-select:hover, .add-block-select:hover {
+    opacity: .8;
+}
+
+.add-block-select {
+    background-color: #fff;
+}
+
+.ruby-section-loading {
+    text-align: center;
+}
+
+#page_composer_section_select:hover .dropdown-menu {
+    visibility: visible;
+}
+
+/* section select wrap */
+.section-select-wrap {
+    padding: 30px 20px;
+    border-top: 4px solid #f2f2f2;
+    text-align: center;
+}
+
+.block-select-wrap {
+    clear: both;
+    overflow: hidden;
+    padding: 10px 5px 15px 5px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.section-select-el {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.block-select-el {
+    display: block;
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px 10px;
+    width: 12.499%;
+    text-align: center;
+}
+
+.block-select-el:nth-child(8n+1) {
+    clear: both;
+}
+
+@media only screen and (min-width: 1400px) {
+    .block-select-el {
+        width: 8.3333%;
+    }
+
+    .block-select-el:nth-child(8n+1) {
+        clear: none;
+    }
+
+    .block-select-el:nth-child(12n+1) {
+        clear: none;
+    }
+}
+
+.section-select-el img, .block-select-el img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.block-select-el img {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 80px;
+    height: auto;
+    border: 3px solid #eee;
+    text-align: center;
+}
+
+.section-select-el span, .section-select-el a, .block-select-el a, .block-select-el span {
+    display: block;
+    outline: none !important;
+    text-decoration: none;
+}
+
+.section-select-el span {
+    margin-top: 5px;
+    color: #333;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.block-select-el span {
+    margin-top: 5px;
+    color: #111;
+    text-transform: capitalize;
+    font-size: 11px;
+}
+
+.section-select-el a:hover, .section-select-el a:focus, .block-select-el a:hover, .block-select-el a:focus {
+    opacity: .7;
+}
+
+.section-select-el:last-child, .block-select-el:last-child {
+    margin-right: 0;
+}
+
+.ruby-block-description {
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #aaa;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.ruby-section-empty {
+    display: block;
+    padding: 15px;
+    border: 2px dashed #dfd5ef;
+    color: #3b414c;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ruby-section {
+    position: relative;
+    display: block;
+    margin: 30px 0;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.ruby-section:first-child {
+    margin-top: 0;
+}
+
+.ruby-section:last-child {
+    margin-bottom: 0;
+}
+
+.ruby-section-bar, {
+    position: relative;
+    display: block;
+    /*background-color: #3B414C;*/
+    /*color: #fff;*/
+    text-align: center;
+}
+
+.ruby-block-bar {
+    position: relative;
+    display: block;
+    background-color: #fff;
+}
+
+.ruby-section-label, .ruby-block-label {
+    margin-left: 60px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: move;
+}
+
+.ruby-section-label {
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.ruby-block-label {
+    line-height: 60px;
+}
+
+.ruby-block-wrap {
+    padding: 10px 20px 30px 20px;
+}
+
+.ruby-block-options-wrap {
+    display: none;
+    padding: 10px 30px 50px 30px;
+    background: #fff;
+}
+
+.ruby-section-toolbox, .ruby-block-toolbox {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    display: block;
+    height: 100%;
+    color: #fff;
+}
+
+.ruby-block-toolbox {
+    top: 15px;
+}
+
+.ruby-section-move, .ruby-block-move {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: block;
+    cursor: move;
+}
+
+.ruby-section-delete, .ruby-section-open-option, .ruby-block-open-option, .ruby-block-delete, .ruby-section-move, .ruby-block-move {
+    display: inline-block;
+    margin-right: 5px;
+    width: 30px;
+    width: 30px;
+    height: 30px;
+    border: none !important;
+    border-radius: 4px;
+    background-color: #77D895;
+    color: #fff !important;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    -webkit-transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -ms-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.ruby-block-open-option, .ruby-block-delete {
+    line-height: 30px;
+}
+
+.ruby-section-delete, .ruby-section-open-option, .ruby-block-open-option, .ruby-block-delete {
+    line-height: 26px;
+}
+
+.ruby-block-move, .ruby-section-move {
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    line-height: 30px;
+}
+
+.ruby-section-delete, .ruby-block-delete {
+    background-color: #FF776A;
+}
+
+.ruby-section-open-option:hover, .ruby-block-delete:hover, .ruby-block-open-option:hover {
+    background-color: #29d883;
+}
+
+.ruby-section-delete:hover, .ruby-block-delete:focus, .ruby-block-delete:hover, .ruby-block-delete:focus {
+    background-color: #ff1800;
+}
+
+.block-dropdown-menu {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    padding: 10px 0;
+    border-left: 1px solid #e2e2e2;
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+}
+
+.block-dropdown-menu li {
+    margin: 0;
+    min-width: 180px;
+}
+
+.block-dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 1px dashed #E2E2E2;
+    color: #3B414C;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.block-dropdown-menu li:last-child a {
+    border-bottom: 0;
+}
+
+.block-dropdown-menu li a:hover {
+    color: #F7CA18;
+}
+
+.block-sidebar {
+    display: block;
+    width: 100%;
+}
+
+.ruby-block-item {
+    display: block;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, .02);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .02);
+}
+
+.ruby-block-item:first-child {
+    margin-top: 0;
+}
+
+.ruby-block-item:last-child {
+    margin-bottom: 0;
+}
+
+.clearfix:after {
+    display: block; /* Older browser do not support empty content */
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: " ";
+}
+
+.ruby-block-option-label-wrap {
+    float: left;
+    overflow: hidden;
+    width: 35%;
+}
+
+.ruby-block-option-inner {
+    display: block;
+    float: right;
+    width: 60%;
+}
+
+.is-custom-html .ruby-tab-content .ruby-block-option .ruby-block-option-inner {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.is-custom-html textarea {
+    display: block;
+    width: 100%;
+}
+
+.is-custom-html .ruby-tab-content .ruby-block-option:last-child .ruby-field {
+    font-weight: normal;
+}
+
+.ruby-block-option {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.ruby-block-option:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.ruby-block-option:after {
+    display: block; /* Older browser do not support empty content */
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: " ";
+}
+
+.ruby-block-option-label {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.ruby-block-option-description {
+    max-width: 380px;
+    color: #aaa;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 1.6em;
+}
+
+.ruby-field {
+    display: block;
+    margin-top: 10px;
+    padding: 7px 15px !important;
+    min-width: 60%;
+    height: auto !important;
+    outline: none !important;
+    box-shadow: none !important;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px !important;
+}
+
+.ruby-field.ruby-text, textarea.ruby-field {
+    text-transform: none !important;
+}
+
+textarea.ruby-field {
+    font-weight: normal;
+}
+
+
+textarea.ruby-field.raw-html {
+    width: 100%;
+}
+
+.ruby-field:focus {
+    border-color: #cbcbcb !important;
+}
+
+.ruby-field option {
+    display: block;
+    padding: 2px 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.5;
+
+}
+
+select.ruby-field {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+
+select[multiple].ruby-field {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.ruby-section-sidebar {
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.ruby-template-field-sidebar-label label {
+    display: block;
+    display: none;
+    color: #3B414C;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.ruby-sidebar-select-wrap {
+    display: block;
+    overflow: hidden;
+}
+
+.ruby-sidebar-select-el {
+    display: block;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 33.333%;
+}
+
+select.ruby-sidebar-select, select.ruby-sidebar-position, select.ruby-sidebar-sticky {
+    display: block;
+    margin-top: 10px;
+    padding: 7px 15px !important;
+    min-width: 60%;
+    width: 100% !important;
+    height: auto !important;
+    outline: none !important;
+    box-shadow: none !important;
+    line-height: 20px !important;
+    border-color: #eee;
+}
+
+.sidebar-label {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 5px 5px 5px;
+}
+
+#ruby-composer-loading {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    min-height: 120px;
+    background: #f8f8f8 url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20width%3D%2240%22%20height%3D%2240%22%20fill%3D%22%23282828%22%3E%3Cpath%20opacity%3D%22.2%22%20d%3D%22M16%200%20A16%2016%200%200%200%2016%2032%20A16%2016%200%200%200%2016%200%20M16%204%20A12%2012%200%200%201%2016%2028%20A12%2012%200%200%201%2016%204%22%2F%3E%3Cpath%20d%3D%22M16%200%20A16%2016%200%200%201%2032%2016%20L28%2016%20A12%2012%200%200%200%2016%204z%22%3E%3CanimateTransform%20attributeName%3D%22transform%22%20type%3D%22rotate%22%20from%3D%220%2016%2016%22%20to%3D%22360%2016%2016%22%20dur%3D%220.8s%22%20repeatCount%3D%22indefinite%22%2F%3E%3C%2Fpath%3E%3C%2Fsvg%3E') no-repeat center center;
+}
+
+.ruby-template-field-sidebar-label {
+    border-radius: 4px;
+}
+
+.ruby-tab {
+    display: none;
+}
+
+.ruby-tab:first-child {
+    display: block;
+}
+
+.ruby-filter-link {
+    display: block;
+    overflow: hidden;
+}
+
+.ruby-tab-filter-el {
+    display: block;
+    float: left;
+    margin-right: 5px;
+    padding: 8px 25px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.ruby-tab-filter-el {
+    color: #777;
+}
+
+.ruby-tab-filter-el.filter-active, .ruby-tab-filter-el:hover, .ruby-tab-filter-el:focus {
+    background-color: #9a9dcc;
+    color: #fff !important;
+}
+
+.ruby-block-content {
+    display: block;
+    margin-top: 10px;
+    padding: 30px;
+    border: 1px solid #e6e2f7;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+@keyframes composerLoad {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes composerLoad {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes composerLoad {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes composerLoad {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.ruby-field-loading {
+    text-transform: capitalize;
+    font-size: 16px;
+    -webkit-animation: composerLoad 3s infinite;
+    -moz-animation: composerLoad 3s infinite;
+    -o-animation: composerLoad 3s infinite;
+    animation: composerLoad 3s infinite;
+}
+
+.ruby-tab-advertising textarea {
+    font-weight: normal;
+}
+
+/* rtl */
+.rtl .ruby-filter-link a {
+    float: right;
+}
+
+.rtl .ruby-block-option-inner {
+    float: left;
+}
+
+.rtl .ruby-block-option-label-wrap {
+    float: right;
+    padding-right: 3px;
+}
